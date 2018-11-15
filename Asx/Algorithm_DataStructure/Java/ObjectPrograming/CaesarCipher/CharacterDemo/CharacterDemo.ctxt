@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CharacterDemo
+comment0.text=\n\ Illustrate\ Character\ methods\n\ \n\ @author\ Duke\ Software\ Team\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ digitTest()
+comment2.params=ch
+comment2.target=boolean\ isVowels(char)
+comment3.params=phrase\ ch
+comment3.target=java.lang.String\ replaceVowels(java.lang.String,\ char)
+comment4.params=phrase\ ch
+comment4.target=java.lang.String\ emphasize(java.lang.String,\ char)
+comment5.params=
+comment5.target=void\ conversionTest()
+numComments=6
