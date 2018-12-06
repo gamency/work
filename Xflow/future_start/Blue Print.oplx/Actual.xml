@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="edjDN5uXs9o">
-  <start-date>2018-12-03T16:00:00.000Z</start-date>
+  <start-date>2018-12-04T16:00:00.000Z</start-date>
   <prototype-task>
     <task id="t-2">
       <title>任务 1</title>
@@ -156,7 +156,7 @@
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
-    <static-cost>22</static-cost>
+    <static-cost>28</static-cost>
     <child-task idref="t16"/>
     <child-task idref="t24"/>
     <child-task idref="t25"/>
@@ -169,21 +169,23 @@
   <task id="t3">
     <title>AI Application</title>
     <type>group</type>
-    <static-cost>21</static-cost>
+    <start-constraint-date>2018-12-04T16:00:00.000Z</start-constraint-date>
+    <static-cost>22</static-cost>
     <child-task idref="t4"/>
     <child-task idref="t7"/>
     <child-task idref="t6"/>
     <child-task idref="t8"/>
+    <start-no-earlier-than>2018-12-04T16:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t4">
     <title>Anti-fraud</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <static-cost>17</static-cost>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>18</static-cost>
     <child-task idref="t12"/>
     <child-task idref="t11"/>
     <child-task idref="t10"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t6">
     <title>AutoML</title>
@@ -199,11 +201,11 @@
   <task id="t7">
     <title>AIOPS</title>
     <type>group</type>
-    <start-constraint-date>2018-12-03T16:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-04T16:00:00.000Z</start-constraint-date>
     <static-cost>2</static-cost>
     <child-task idref="t18"/>
     <child-task idref="t19"/>
-    <start-no-earlier-than>2018-12-03T16:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-04T16:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t8">
     <title>Business Application</title>
@@ -227,12 +229,17 @@
   <task id="t11">
     <title>行为识别研究开发 </title>
     <type>group</type>
+    <static-cost>1</static-cost>
+    <child-task idref="t159"/>
+    <child-task idref="t160"/>
   </task>
   <task id="t12">
     <title>人机识别应用开发</title>
     <type>group</type>
+    <start-constraint-date>2018-12-04T16:00:00.000Z</start-constraint-date>
     <static-cost>13</static-cost>
     <child-task idref="t14"/>
+    <start-no-earlier-than>2018-12-04T16:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t14">
     <title>人机识别算法模型开发</title>
@@ -256,12 +263,12 @@
   <task id="t16">
     <title>Professional</title>
     <type>group</type>
-    <start-constraint-date>2018-12-03T16:00:00.000Z</start-constraint-date>
-    <static-cost>21</static-cost>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>23</static-cost>
     <child-task idref="t3"/>
     <child-task idref="t31"/>
     <child-task idref="t33"/>
-    <start-no-earlier-than>2018-12-03T16:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t18">
     <title>现有技术与架构调研</title>
@@ -277,16 +284,18 @@
     <type>group</type>
   </task>
   <task id="t20">
-    <title>学术界在该领域上的研究成果调研</title>
+    <title>AIOPS@学术界在该领域上的研究成果收集</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-05T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-05T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t21">
-    <title>工业界在该领域上的落地实现与效果调研</title>
+    <title>AIOPS@工业界在该领域上的落地实现与效果调研</title>
     <effort>28800</effort>
+    <effort-done>18000</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t95"/>
@@ -296,271 +305,286 @@
   <task id="t24">
     <title>Personal Development</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>5</static-cost>
     <child-task idref="t34"/>
     <child-task idref="t35"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t25">
     <title>Hobbies</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <child-task idref="t125"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t26">
     <title>Entertaining</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t27">
     <title>Wealth</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <child-task idref="t126"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t28">
     <title>Health</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t29">
     <title>Family</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t30">
     <title>Social Communication</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t31">
     <title>Data Science AI</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
     <child-task idref="t58"/>
     <child-task idref="t59"/>
     <child-task idref="t60"/>
     <child-task idref="t61"/>
     <child-task idref="t62"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t33">
     <title>IT New technology</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <child-task idref="t122"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t34">
     <title>Reading</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>3</static-cost>
     <child-task idref="t40"/>
     <child-task idref="t41"/>
     <child-task idref="t42"/>
     <child-task idref="t43"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t35">
     <title>Skill Learning</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>2</static-cost>
     <child-task idref="t36"/>
     <child-task idref="t38"/>
     <child-task idref="t39"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t36">
     <title>Management</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>2</static-cost>
     <child-task idref="t51"/>
     <child-task idref="t52"/>
     <child-task idref="t53"/>
     <child-task idref="t54"/>
     <child-task idref="t55"/>
     <child-task idref="t57"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t38">
     <title>Language</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t39">
     <title>New Skill master</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <child-task idref="t124"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t40">
     <title>Fiction&amp;Novel</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>3</static-cost>
     <child-task idref="t45"/>
     <child-task idref="t46"/>
     <child-task idref="t47"/>
     <child-task idref="t48"/>
     <child-task idref="t49"/>
     <child-task idref="t50"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t41">
     <title>History</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t42">
     <title>Traditional Classical</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t43">
     <title>Tang to Qing</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t45">
     <title>Russia</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t46">
     <title>France</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t47">
     <title>England</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t48">
     <title>Europe</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t49">
     <title>Chinese</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t50">
     <title>Book Club recommendation</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>3</static-cost>
     <child-task idref="t141"/>
     <child-task idref="t142"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <child-task idref="t147"/>
+    <child-task idref="t148"/>
+    <child-task idref="t145"/>
+    <child-task idref="t146"/>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t51">
     <title>Project Management</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t52">
     <title>Team Management</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t53">
     <title>Time Management</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t54">
     <title>Self  Management</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <child-task idref="t143"/>
+    <child-task idref="t144"/>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t55">
     <title>Thinking</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-10T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <child-task idref="t149"/>
+    <child-task idref="t150"/>
+    <start-no-earlier-than>2018-12-10T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t57">
     <title>The art of Plan &amp; Report </title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t58">
     <title>Machine Learning</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <child-task idref="t97"/>
     <child-task idref="t98"/>
     <child-task idref="t99"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t59">
     <title>Platform &amp; Tools</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <child-task idref="t110"/>
     <child-task idref="t111"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t60">
     <title>Algorithm &amp; Data Structure</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
     <child-task idref="t115"/>
     <child-task idref="t116"/>
     <child-task idref="t117"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t61">
     <title>Maths &amp; Statics</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <child-task idref="t118"/>
     <child-task idref="t119"/>
     <child-task idref="t120"/>
     <child-task idref="t121"/>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t62">
     <title>System Design</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t64">
-    <title>数据治理到对应库／文件</title>
+    <title>人机数据治理到对应库／文件</title>
     <effort>28800</effort>
+    <effort-done>8640</effort-done>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t65">
-    <title>完成全流程框架图的输出及对应功能的输出</title>
+    <title>人机完成全流程框架图的输出及对应功能的输出</title>
     <effort>57600</effort>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -569,7 +593,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t66">
-    <title>完成现有特征库的封装</title>
+    <title>人机完成现有特征库的封装</title>
     <effort>115200</effort>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -578,7 +602,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t67">
-    <title>完成现有模型库封装</title>
+    <title>人机完成现有模型库封装</title>
     <effort>115200</effort>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -587,7 +611,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t68">
-    <title>完成可视化与打标web前后端</title>
+    <title>人机完成可视化与打标web前后端</title>
     <effort>86400</effort>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -596,7 +620,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t69">
-    <title>全流程，全功能调试通</title>
+    <title>人机全流程，全功能调试通</title>
     <effort>57600</effort>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -605,7 +629,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t70">
-    <title>完成打包封装</title>
+    <title>完成打包封装@人机</title>
     <effort>86400</effort>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -614,7 +638,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t71">
-    <title>完成数据治理</title>
+    <title>完成人机数据治理</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t64"/>
@@ -622,7 +646,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t72">
-    <title>设计资料输出</title>
+    <title>人机设计资料输出</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -631,7 +655,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t73">
-    <title>特征库开发封装完成</title>
+    <title>人机特征库开发封装完成</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -640,7 +664,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t74">
-    <title>模型库开发封装完成</title>
+    <title>人机模型库开发封装完成</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -649,7 +673,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t75">
-    <title>可视化开发完成</title>
+    <title>人机可视化开发完成</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -658,7 +682,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t76">
-    <title>全流程调试通</title>
+    <title>人机全流程调试通</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -667,7 +691,7 @@
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t77">
-    <title>打包封装完成</title>
+    <title>打包封装完成@人机</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -708,194 +732,217 @@
     <effort>28800</effort>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
+    <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t85">
-    <title>完成第一轮相关资料的收集并保存到库</title>
+    <title>完成第一轮相关资料的收集并保存到库@DV</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-03T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t83"/>
-    <start-no-earlier-than>2018-12-03T23:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t88">
-    <title>进行第一轮资料的详细分析</title>
+    <title>进行第一轮资料的详细分析@DV</title>
     <effort>28800</effort>
-    <start-constraint-date>2018-12-03T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t85"/>
-    <start-no-earlier-than>2018-12-03T23:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t89">
-    <title>完成第一轮资料的详细分析</title>
+    <title>完成第一轮资料的详细分析@DV</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-03T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t88"/>
-    <start-no-earlier-than>2018-12-03T23:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t91">
     <title>Fintec金融反欺诈材料分析</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
+    <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t92">
     <title>数美反欺诈体系材料分析</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
+    <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t93">
-    <title>完成分析并输出分析记录</title>
+    <title>完成分析并输出分析记录@Fintec</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-03T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t91"/>
-    <start-no-earlier-than>2018-12-03T23:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t94">
-    <title>完成分析并输出分析记录</title>
+    <title>完成分析并输出分析记录@友商</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-03T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t92"/>
-    <start-no-earlier-than>2018-12-03T23:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t95">
-    <title>完成资料的收集</title>
+    <title>完成资料的收集@AIOPS</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-03T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t20"/>
-    <start-no-earlier-than>2018-12-03T23:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t96">
-    <title>完成第一篇资料的分析整理</title>
+    <title>完成第一篇资料的分析整理@AIOPS</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-03T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t21"/>
-    <start-no-earlier-than>2018-12-03T23:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-05T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t97">
     <title>Traditional Machine Learning</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t98">
     <title>Deep Learning</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t99">
     <title>Reinforcement Learning</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t110">
     <title>Spark &amp; Hadoop &amp; Kafka</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t111">
     <title>Tensorflow</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t115">
     <title>Java</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <child-task idref="t156"/>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t116">
     <title>C/C++</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t117">
     <title>Python</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t118">
     <title>Linear Algebra</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t119">
     <title>Deferential </title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t120">
     <title>Convex optimization</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t121">
     <title>Probability</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t122">
     <title>Cloud</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t124">
     <title>Car Driving</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t125">
     <title>Origami</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t126">
     <title>Stock</title>
     <type>group</type>
-    <start-constraint-date>2018-12-04T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-04T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t128">
     <title>收集AutoML相关的资料与资源，形成资源列表</title>
     <effort>28800</effort>
     <start-constraint-date>2018-12-09T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
+    <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-09T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t129">
-    <title>完成收集到资料库</title>
+    <title>完成收集到资料库@AutoML</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-09T23:45:00.000Z</start-constraint-date>
     <prerequisite-task idref="t128"/>
+    <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-09T23:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t130">
-    <title>进行第一轮资料的分析</title>
+    <title>进行第一轮资料的分析@AutoML</title>
     <effort>144000</effort>
     <start-constraint-date>2018-12-09T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
+    <prerequisite-task idref="t129"/>
+    <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-09T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t131">
-    <title>完成第一轮资料的分析与总结</title>
+    <title>完成第一轮资料的分析与总结@AutoML</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-09T23:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-09T23:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2018-12-13T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t130"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-13T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t132">
     <title>Education</title>
@@ -934,12 +981,120 @@
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t142">
-    <title>完成阅读并分享心得</title>
+    <title>完成阅读并分享心得@局外人</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-06T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t141"/>
     <assignment idref="r4"/>
     <start-no-earlier-than>2018-12-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t143">
+    <title>自控力</title>
+    <effort>144000</effort>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t144">
+    <title>完成xmind梳理@自控力</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-12-08T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t143"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-08T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t145">
+    <title>百年孤独</title>
+    <effort>172800</effort>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t148"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t146">
+    <title>完成百年孤独心得与记录</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t145"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t147">
+    <title>1984</title>
+    <effort>172800</effort>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t142"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t148">
+    <title>完成1984心得与记录</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t147"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t149">
+    <title>思考的艺术</title>
+    <effort>576000</effort>
+    <start-constraint-date>2018-12-10T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-10T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t150">
+    <title>完成思考的艺术xmind的梳理输出</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-12-30T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t149"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-30T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t156">
+    <title>Algorithm</title>
+    <type>group</type>
+    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <child-task idref="t157"/>
+    <child-task idref="t158"/>
+    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t157">
+    <title>2.1 Elementary Sort</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t158">
+    <title>Elementary Sort finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t157"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t159">
+    <title>反欺诈体系的思路梳理</title>
+    <effort>108000</effort>
+    <effort-done>7560</effort-done>
+    <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t160">
+    <title>完成反欺诈体系的思路梳理成文稿</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-12-07T06:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t159"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-12-07T06:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
