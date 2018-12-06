@@ -1066,6 +1066,7 @@
   <task id="t157">
     <title>2.1 Elementary Sort</title>
     <effort>28800</effort>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r3"/>
