@@ -1,0 +1,2 @@
+Action,mouse_event_type,Time,op_x,op_y,first_x,first_y,second_x,second_y,scenario,terminal,Bot
+10,3,1525404225652,656,404,857,432,568,386,0,0,1

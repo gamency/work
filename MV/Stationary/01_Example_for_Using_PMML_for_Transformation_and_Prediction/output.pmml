@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="Alexander Fillbrunn" description="Demo PMML for K-Means">
+    <Application name="KNIME" version="2.11.2"/>
+    <Annotation>
+      <Extension name="author">Alexander Fillbrunn</Extension>
+    </Annotation>
+    <Annotation>
+      <Extension name="createdAt">5/5/2015</Extension>
+    </Annotation>
+  </Header>
+  <DataDictionary numberOfFields="5">
+    <DataField dataType="double" name="Col0" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="4.3" rightMargin="7.9"/>
+    </DataField>
+    <DataField dataType="double" name="Col1" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="2.0" rightMargin="4.4"/>
+    </DataField>
+    <DataField dataType="double" name="Col2" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="1.0" rightMargin="6.9"/>
+    </DataField>
+    <DataField dataType="double" name="Col3" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.1" rightMargin="2.5"/>
+    </DataField>
+    <DataField dataType="string" name="Col4" optype="categorical">
+      <Value value="Iris-setosa"/>
+      <Value value="Iris-versicolor"/>
+      <Value value="Iris-virginica"/>
+    </DataField>
+  </DataDictionary>
+  <TransformationDictionary>
+    <DerivedField dataType="double" displayName="Col3" name="Col3*" optype="continuous">
+      <Extension extender="KNIME" name="summary" value="Z-Score (Gaussian) normalization on 4 column(s)"/>
+      <NormContinuous field="Col3">
+        <LinearNorm norm="-1.5404390835336081" orig="0.0"/>
+        <LinearNorm norm="-0.20768717276192183" orig="1.0"/>
+      </NormContinuous>
+    </DerivedField>
+    <DerivedField dataType="double" displayName="Col1" name="Col1*" optype="continuous">
+      <Extension extender="KNIME" name="summary" value="Z-Score (Gaussian) normalization on 4 column(s)"/>
+      <NormContinuous field="Col1">
+        <LinearNorm norm="-6.934603281508729" orig="0.0"/>
+        <LinearNorm norm="-4.666540065970306" orig="1.0"/>
+      </NormContinuous>
+    </DerivedField>
+    <DerivedField dataType="double" displayName="Col0" name="Col0*" optype="continuous">
+      <Extension extender="KNIME" name="summary" value="Z-Score (Gaussian) normalization on 4 column(s)"/>
+      <NormContinuous field="Col0">
+        <LinearNorm norm="-7.125696507054139" orig="0.0"/>
+        <LinearNorm norm="-5.900121645585747" orig="1.0"/>
+      </NormContinuous>
+    </DerivedField>
+    <DerivedField dataType="double" displayName="Col2" name="Col2*" optype="continuous">
+      <Extension extender="KNIME" name="summary" value="Z-Score (Gaussian) normalization on 4 column(s)"/>
+      <NormContinuous field="Col2">
+        <LinearNorm norm="-2.082897178326256" orig="0.0"/>
+        <LinearNorm norm="-1.5180437062377798" orig="1.0"/>
+      </NormContinuous>
+    </DerivedField>
+  </TransformationDictionary>
+  <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction" noTrueChildStrategy="returnNullPrediction">
+    <MiningSchema>
+      <MiningField name="Col0" invalidValueTreatment="asIs"/>
+      <MiningField name="Col1" invalidValueTreatment="asIs"/>
+      <MiningField name="Col2" invalidValueTreatment="asIs"/>
+      <MiningField name="Col3" invalidValueTreatment="asIs"/>
+      <MiningField name="Col4" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <Node id="0" score="Iris-setosa" recordCount="120.0">
+      <True/>
+      <ScoreDistribution value="Iris-setosa" recordCount="42.0"/>
+      <ScoreDistribution value="Iris-virginica" recordCount="38.0"/>
+      <ScoreDistribution value="Iris-versicolor" recordCount="40.0"/>
+      <Node id="1" score="Iris-setosa" recordCount="42.0">
+        <SimplePredicate field="Col3*" operator="lessOrEqual" value="-0.47423755491625913"/>
+        <ScoreDistribution value="Iris-setosa" recordCount="42.0"/>
+        <ScoreDistribution value="Iris-virginica" recordCount="0.0"/>
+        <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+      </Node>
+      <Node id="2" score="Iris-versicolor" recordCount="78.0">
+        <SimplePredicate field="Col3*" operator="greaterThan" value="-0.47423755491625913"/>
+        <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+        <ScoreDistribution value="Iris-virginica" recordCount="38.0"/>
+        <ScoreDistribution value="Iris-versicolor" recordCount="40.0"/>
+        <Node id="3" score="Iris-versicolor" recordCount="44.0">
+          <SimplePredicate field="Col3*" operator="lessOrEqual" value="0.7918767603168428"/>
+          <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+          <ScoreDistribution value="Iris-virginica" recordCount="5.0"/>
+          <ScoreDistribution value="Iris-versicolor" recordCount="39.0"/>
+          <Node id="4" score="Iris-versicolor" recordCount="38.0">
+            <SimplePredicate field="Col2*" operator="lessOrEqual" value="0.713127508511701"/>
+            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+            <ScoreDistribution value="Iris-virginica" recordCount="1.0"/>
+            <ScoreDistribution value="Iris-versicolor" recordCount="37.0"/>
+          </Node>
+          <Node id="7" score="Iris-virginica" recordCount="6.0">
+            <SimplePredicate field="Col2*" operator="greaterThan" value="0.713127508511701"/>
+            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+            <ScoreDistribution value="Iris-virginica" recordCount="4.0"/>
+            <ScoreDistribution value="Iris-versicolor" recordCount="2.0"/>
+            <Node id="8" score="Iris-virginica" recordCount="3.0">
+              <SimplePredicate field="Col3*" operator="lessOrEqual" value="0.5253263781625057"/>
+              <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+              <ScoreDistribution value="Iris-virginica" recordCount="3.0"/>
+              <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+            </Node>
+            <Node id="9" score="Iris-versicolor" recordCount="3.0">
+              <SimplePredicate field="Col3*" operator="greaterThan" value="0.5253263781625057"/>
+              <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+              <ScoreDistribution value="Iris-virginica" recordCount="1.0"/>
+              <ScoreDistribution value="Iris-versicolor" recordCount="2.0"/>
+            </Node>
+          </Node>
+        </Node>
+        <Node id="10" score="Iris-virginica" recordCount="34.0">
+          <SimplePredicate field="Col3*" operator="greaterThan" value="0.7918767603168428"/>
+          <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+          <ScoreDistribution value="Iris-virginica" recordCount="33.0"/>
+          <ScoreDistribution value="Iris-versicolor" recordCount="1.0"/>
+        </Node>
+      </Node>
+    </Node>
+  </TreeModel>
+</PMML>

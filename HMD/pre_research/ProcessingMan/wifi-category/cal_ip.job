@@ -1,0 +1,11 @@
+type=spark
+spark-version=2-yarn
+execution-jar=1_cal_ip.py
+name=wifi-category-calip
+conf.spark.sql.autoBroadcastJoinThreshold=-1
+conf.spark.ui.port=8288
+executor-memory=16G
+driver-memory=8G
+conf.spark.driver.maxResultSize=8G
+conf.spark.sql.shuffle.partitions=6000
+conf.spark.sql.adaptive.enabled=false

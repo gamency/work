@@ -82,172 +82,61 @@
     <change idref="t80" attribute="internalPrerequisitesString" type="string" from="4FS"/>
     <change idref="t82" attribute="internalPrerequisitesString" type="string" from="4FS"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-20T08:23:59.273Z" timestamp="2018-12-20T08:23:59.273Z">
-    <change idref="t65" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-18T02:00:00.000Z" to="2019-01-03T02:00:00.000Z" resolved="yes"/>
-    <change idref="t88" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-17T11:00:00.000Z" to="2018-12-24T11:00:00.000Z" resolved="yes"/>
-    <change idref="t165" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-17T00:00:00.000Z" to="2018-12-23T00:00:00.000Z" resolved="yes"/>
-    <change idref="t187" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-16T23:00:00.000Z" to="2018-12-21T23:00:00.000Z" resolved="yes"/>
-    <change idref="t231" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-19T23:00:00.000Z" to="2018-12-18T23:00:00.000Z" resolved="yes"/>
-    <change idref="t232" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
-    <change idref="t232" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
-    <change idref="t234" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
-    <change idref="t234" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-20T23:00:00.000Z" to="2018-12-20T01:00:00.000Z" resolved="yes"/>
-    <change idref="t234" attribute="internalEffortDone" type="real" from="28800" to="3600" resolved="yes"/>
-    <change idref="t235" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-20T23:00:00.000Z" to="2018-12-19T23:00:00.000Z" resolved="yes"/>
-    <change idref="t236" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-24T01:00:00.000Z" to="2018-12-20T01:00:00.000Z" resolved="yes"/>
-    <change idref="t236" attribute="internalEffortDone" type="real" from="0" to="2880" resolved="yes"/>
-    <change idref="t237" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-24T23:00:00.000Z" to="2018-12-20T23:00:00.000Z" resolved="yes"/>
-    <change idref="t238" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-23T23:00:00.000Z" to="2018-12-21T01:00:00.000Z" resolved="yes"/>
-    <change idref="t239" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-24T23:00:00.000Z" to="2018-12-23T07:00:00.000Z" resolved="yes"/>
-    <change idref="t240" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-24T11:00:00.000Z" to="2018-12-23T09:00:00.000Z" resolved="yes"/>
-    <change idref="t241" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-24T23:00:00.000Z" to="2018-12-24T02:00:00.000Z" resolved="yes"/>
-    <change idref="t242" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-24T23:00:00.000Z" to="2018-12-24T02:00:00.000Z" resolved="yes"/>
-    <change idref="t243" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-25T23:00:00.000Z" to="2018-12-25T00:00:00.000Z" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-28T01:56:48.208Z" timestamp="2018-12-28T01:56:48.208Z">
+    <change idref="t193" attribute="internalEffortDone" type="real" from="4320" to="14400" resolved="yes"/>
+    <change idref="t194" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t195" attribute="title" type="string" from="BNGD@13～16" to="BNGD@13～17" resolved="yes"/>
+    <change idref="t195" attribute="internalEffortDone" type="real" from="0" to="16200" resolved="yes"/>
+    <change idref="t261" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-20T09:48:14.901Z" timestamp="2018-12-20T09:48:14.901Z">
-    <change idref="t236" attribute="internalEffortDone" type="real" from="2880" to="8640" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-28T01:59:40.242Z" timestamp="2018-12-28T01:59:40.242Z">
+    <change idref="t145" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-20T23:00:00.000Z" to="2018-12-22T23:00:00.000Z" resolved="yes"/>
+    <change idref="t262" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-03T23:00:00.000Z" resolved="yes"/>
+    <change idref="t263" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-03T23:00:00.000Z" resolved="yes"/>
+    <change idref="t264" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-04T23:00:00.000Z" resolved="yes"/>
+    <change idref="t265" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-04T23:00:00.000Z" resolved="yes"/>
+    <change idref="t266" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-10T23:00:00.000Z" resolved="yes"/>
+    <change idref="t267" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-10T23:00:00.000Z" resolved="yes"/>
+    <change idref="t268" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-11T23:00:00.000Z" resolved="yes"/>
+    <change idref="t269" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-11T23:00:00.000Z" resolved="yes"/>
+    <change idref="t270" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-16T23:00:00.000Z" resolved="yes"/>
+    <change idref="t271" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-16T23:00:00.000Z" resolved="yes"/>
+    <change idref="t272" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-18T23:00:00.000Z" resolved="yes"/>
+    <change idref="t273" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-18T23:00:00.000Z" resolved="yes"/>
+    <change idref="t274" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-31T23:00:00.000Z" to="2019-01-21T23:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-20T13:10:18.012Z" timestamp="2018-12-20T13:10:18.012Z">
-    <change idref="t236" attribute="internalEffortDone" type="real" from="8640" to="14400" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T01:24:43.913Z" timestamp="2018-12-29T01:24:43.913Z">
+    <change idref="t195" attribute="internalEffortDone" type="real" from="16200" to="21600" resolved="yes"/>
+    <change idref="t196" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t257" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-20T13:18:30.042Z" timestamp="2018-12-20T13:18:30.042Z">
-    <change idref="t236" attribute="internalEffortDone" type="real" from="14400" to="17280" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T01:55:40.854Z" timestamp="2018-12-29T01:55:40.854Z">
+    <change idref="t254" attribute="internalEffortDone" type="real" from="17280" to="57600" resolved="yes"/>
+    <change idref="t255" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t257" attribute="internalEffortDone" type="real" from="7200" to="14400" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-20T13:33:04.349Z" timestamp="2018-12-20T13:33:04.349Z">
-    <change idref="t236" attribute="internalEffortDone" type="real" from="17280" to="23040" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T03:11:48.128Z" timestamp="2018-12-29T03:11:48.128Z">
+    <change idref="t246" attribute="internalEffortDone" type="real" from="2880" to="28800" resolved="yes"/>
+    <change idref="t247" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-20T14:07:13.740Z" timestamp="2018-12-20T14:07:13.740Z">
-    <change idref="t236" attribute="internalEffortDone" type="real" from="23040" to="28800" resolved="yes"/>
-    <change idref="t237" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t238" attribute="internalEffortDone" type="real" from="0" to="2880" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T03:55:14.634Z" timestamp="2018-12-29T03:55:14.634Z">
+    <change idref="t248" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-20T14:08:00.133Z" timestamp="2018-12-20T14:08:00.133Z">
-    <change idref="t236" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
-    <change idref="t236" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
-    <change idref="t239" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-23T07:00:00.000Z" to="2018-12-21T07:00:00.000Z" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T07:44:09.283Z" timestamp="2018-12-29T07:44:09.283Z">
+    <change idref="t248" attribute="internalEffortDone" type="real" from="8640" to="14400" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-21T03:06:59.179Z" timestamp="2018-12-21T03:06:59.179Z">
-    <change idref="t238" attribute="internalEffortDone" type="real" from="2880" to="14400" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T08:44:44.156Z" timestamp="2018-12-29T08:44:44.156Z">
+    <change idref="t248" attribute="internalEffortDone" type="real" from="14400" to="28800" resolved="yes"/>
+    <change idref="t249" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-21T07:33:22.770Z" timestamp="2018-12-21T07:33:22.770Z">
-    <change idref="t238" attribute="internalEffortDone" type="real" from="14400" to="17280" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T08:49:32.671Z" timestamp="2018-12-29T08:49:32.671Z">
+    <change idref="t250" attribute="internalEffortDone" type="real" from="0" to="288" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-21T07:33:34.262Z" timestamp="2018-12-21T07:33:34.262Z">
-    <change idref="t240" attribute="internalEffortDone" type="real" from="0" to="288" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T09:07:37.675Z" timestamp="2018-12-29T09:07:37.675Z">
+    <change idref="t250" attribute="internalEffortDone" type="real" from="288" to="8640" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="kite" date="2018-12-21T14:38:17.588Z" timestamp="2018-12-21T14:38:17.588Z">
-    <change idref="t88" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-24T11:00:00.000Z" to="2018-12-25T11:00:00.000Z" resolved="yes"/>
-    <change idref="t130" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-17T11:00:00.000Z" to="2019-01-02T11:00:00.000Z" resolved="yes"/>
-    <change idref="t226" attribute="internalEffortDone" type="real" from="8640" to="14400" resolved="yes"/>
-    <change idref="t227" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t228" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
-    <change idref="t229" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t238" attribute="internalEffortDone" type="real" from="17280" to="28800" resolved="yes"/>
-    <change idref="t239" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="kite" date="2018-12-22T02:27:26.929Z" timestamp="2018-12-22T02:27:26.929Z">
-    <change idref="t240" attribute="internalEffortDone" type="real" from="288" to="11520" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="kite" date="2018-12-22T03:10:12.329Z" timestamp="2018-12-22T03:10:12.329Z">
-    <change idref="t240" attribute="internalEffortDone" type="real" from="11520" to="14400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="kite" date="2018-12-22T06:58:24.180Z" timestamp="2018-12-22T06:58:24.180Z">
-    <change idref="t145" attribute="noEarlierThanConstraintDate" type="date" from="2018-12-15T23:00:00.000Z" to="2018-12-20T23:00:00.000Z" resolved="yes"/>
-    <change idref="t240" attribute="internalEffortDone" type="real" from="14400" to="28800" resolved="yes"/>
-    <change idref="t241" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="kite" date="2018-12-22T06:59:48.295Z" timestamp="2018-12-22T06:59:48.295Z">
-    <change idref="t242" attribute="internalEffortDone" type="real" from="0" to="288" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="kite" date="2018-12-22T07:09:46.392Z" timestamp="2018-12-22T07:09:46.392Z">
-    <change idref="t244" to="t156" to-position="28" resolved="yes">
-      <change idref="t244" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t244" attribute="internalPrerequisitesString" type="string" to="243FS"/>
-      <change idref="t244" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-24T01:00:00.000Z"/>
-      <change idref="t244" attribute="staticCost" type="real" from="0" to="1"/>
-      <change idref="t244" attribute="title" type="string" to="5.1String Sorts"/>
-    </change>
-    <change idref="t245" to="t156" to-position="29" resolved="yes">
-      <change idref="t245" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t245" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t245" attribute="internalPrerequisitesString" type="string" to="244FS"/>
-      <change idref="t245" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t245" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-25T23:00:00.000Z"/>
-      <change idref="t245" attribute="percentCompleteForMilestone" type="real" to="0"/>
-      <change idref="t245" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t245" attribute="title" type="string" to="String Sorts finish"/>
-    </change>
-    <change idref="t246" to="t156" to-position="30" resolved="yes">
-      <change idref="t246" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t246" attribute="internalPrerequisitesString" type="string" to="245FS"/>
-      <change idref="t246" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-26T01:00:00.000Z"/>
-      <change idref="t246" attribute="staticCost" type="real" from="0" to="1"/>
-      <change idref="t246" attribute="title" type="string" to="5.2Tries"/>
-    </change>
-    <change idref="t247" to="t156" to-position="31" resolved="yes">
-      <change idref="t247" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t247" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t247" attribute="internalPrerequisitesString" type="string" to="246FS"/>
-      <change idref="t247" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t247" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-26T07:00:00.000Z"/>
-      <change idref="t247" attribute="percentCompleteForMilestone" type="real" to="0"/>
-      <change idref="t247" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t247" attribute="title" type="string" to="Tries finish"/>
-    </change>
-    <change idref="t248" to="t156" to-position="32" resolved="yes">
-      <change idref="t248" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t248" attribute="internalPrerequisitesString" type="string" to="247FS"/>
-      <change idref="t248" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-26T09:00:00.000Z"/>
-      <change idref="t248" attribute="staticCost" type="real" from="0" to="1"/>
-      <change idref="t248" attribute="title" type="string" to="5.3Substring Search "/>
-    </change>
-    <change idref="t249" to="t156" to-position="33" resolved="yes">
-      <change idref="t249" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t249" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t249" attribute="internalPrerequisitesString" type="string" to="248FS"/>
-      <change idref="t249" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t249" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-24T02:00:00.000Z"/>
-      <change idref="t249" attribute="percentCompleteForMilestone" type="real" to="0"/>
-      <change idref="t249" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t249" attribute="title" type="string" to="Substring Search finish"/>
-    </change>
-    <change idref="t250" to="t156" to-position="34" resolved="yes">
-      <change idref="t250" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t250" attribute="internalPrerequisitesString" type="string" to="249FS"/>
-      <change idref="t250" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-28T01:00:00.000Z"/>
-      <change idref="t250" attribute="staticCost" type="real" from="0" to="1"/>
-      <change idref="t250" attribute="title" type="string" to="5.4Regular Expressions"/>
-    </change>
-    <change idref="t251" to="t156" to-position="35" resolved="yes">
-      <change idref="t251" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t251" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t251" attribute="internalPrerequisitesString" type="string" to="250FS"/>
-      <change idref="t251" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t251" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-28T00:00:00.000Z"/>
-      <change idref="t251" attribute="percentCompleteForMilestone" type="real" to="0"/>
-      <change idref="t251" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t251" attribute="title" type="string" to="Regular Expressions finish"/>
-    </change>
-    <change idref="t252" to="t156" to-position="36" resolved="yes">
-      <change idref="t252" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t252" attribute="internalPrerequisitesString" type="string" to="251FS"/>
-      <change idref="t252" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-28T02:00:00.000Z"/>
-      <change idref="t252" attribute="staticCost" type="real" from="0" to="1"/>
-      <change idref="t252" attribute="title" type="string" to="5.4Data Compression"/>
-    </change>
-    <change idref="t253" to="t156" to-position="37" resolved="yes">
-      <change idref="t253" attribute="effort" type="real" from="28800" to="0"/>
-      <change idref="t253" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t253" attribute="internalPrerequisitesString" type="string" to="252FS"/>
-      <change idref="t253" attribute="isSplittableTask" type="real" from="1" to="0"/>
-      <change idref="t253" attribute="noEarlierThanConstraintDate" type="date" to="2018-12-31T00:00:00.000Z"/>
-      <change idref="t253" attribute="percentCompleteForMilestone" type="real" to="0"/>
-      <change idref="t253" attribute="taskType" type="real" from="0" to="1"/>
-      <change idref="t253" attribute="title" type="string" to="Data Compression finish"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="kite" date="2018-12-22T07:09:55.114Z" timestamp="2018-12-22T07:09:55.114Z">
-    <change idref="t252" attribute="title" type="string" from="5.4Data Compression" to="5.5Data Compression" resolved="yes"/>
+  <task-change-set user="kite" date="2018-12-29T09:17:00.878Z" timestamp="2018-12-29T09:17:00.878Z">
+    <change idref="t250" attribute="internalEffortDone" type="real" from="8640" to="14400" resolved="yes"/>
   </task-change-set>
   <metadata-change-set user="kite" date="2018-12-04T10:20:16.388Z" timestamp="2018-12-04T10:20:16.388Z">
     <change idref="m1" attribute="fixedDate" type="date" from="2018-11-17T16:00:00.000Z" to="2018-12-03T16:00:00.000Z"/>

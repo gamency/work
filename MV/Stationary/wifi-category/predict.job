@@ -1,0 +1,11 @@
+type=spark
+spark-version=2-yarn
+execution-jar=3_predict.py
+name=wifi-category-predict
+conf.spark.sql.autoBroadcastJoinThreshold=-1
+conf.spark.ui.port=8288
+executor-memory=16G
+driver-memory=8G
+conf.spark.driver.maxResultSize=8G
+dependencies=bind_feature
+conf.spark.shuffle.service.enabled=true

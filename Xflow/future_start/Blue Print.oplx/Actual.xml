@@ -159,7 +159,7 @@
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
-    <static-cost>69.5</static-cost>
+    <static-cost>78.5</static-cost>
     <child-task idref="t16"/>
     <child-task idref="t24"/>
     <child-task idref="t25"/>
@@ -309,7 +309,7 @@
     <title>Personal Development</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>20</static-cost>
+    <static-cost>29</static-cost>
     <child-task idref="t34"/>
     <child-task idref="t35"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
@@ -375,7 +375,8 @@
     <title>Reading</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>14</static-cost>
+    <static-cost>23</static-cost>
+    <child-task idref="t260"/>
     <child-task idref="t40"/>
     <child-task idref="t41"/>
     <child-task idref="t42"/>
@@ -422,7 +423,7 @@
     <title>Fiction&amp;Novel</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>14</static-cost>
+    <static-cost>16</static-cost>
     <child-task idref="t45"/>
     <child-task idref="t46"/>
     <child-task idref="t47"/>
@@ -483,13 +484,15 @@
     <title>Book Club recommendation</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>14</static-cost>
+    <static-cost>16</static-cost>
     <child-task idref="t218"/>
     <child-task idref="t141"/>
     <child-task idref="t142"/>
     <child-task idref="t147"/>
     <child-task idref="t148"/>
     <child-task idref="t145"/>
+    <child-task idref="t254"/>
+    <child-task idref="t255"/>
     <child-task idref="t181"/>
     <child-task idref="t182"/>
     <child-task idref="t183"/>
@@ -1040,8 +1043,8 @@
   <task id="t145">
     <title>百年孤独</title>
     <type>group</type>
-    <start-constraint-date>2018-12-20T23:00:00.000Z</start-constraint-date>
-    <static-cost>5</static-cost>
+    <start-constraint-date>2018-12-22T23:00:00.000Z</start-constraint-date>
+    <static-cost>6</static-cost>
     <child-task idref="t187"/>
     <child-task idref="t189"/>
     <child-task idref="t188"/>
@@ -1052,17 +1055,19 @@
     <child-task idref="t194"/>
     <child-task idref="t195"/>
     <child-task idref="t196"/>
+    <child-task idref="t257"/>
+    <child-task idref="t258"/>
     <child-task idref="t146"/>
     <prerequisite-task idref="t148"/>
-    <start-no-earlier-than>2018-12-20T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-22T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t146">
     <title>完成百年孤独心得与记录</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-23T01:50:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t196"/>
+    <start-constraint-date>2018-12-29T01:50:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t258"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-23T01:50:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-29T01:50:00.000Z</start-no-earlier-than>
   </task>
   <task id="t147">
     <title>1984</title>
@@ -1219,10 +1224,10 @@
   <task id="t165">
     <title>ZKL@CH1 &amp; CH2</title>
     <effort>28800</effort>
-    <start-constraint-date>2018-12-23T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-07T00:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-23T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-07T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t166">
     <title>CH1 &amp; CH2 finish@ZKL</title>
@@ -1359,37 +1364,38 @@
   <task id="t181">
     <title>故园风雨后</title>
     <effort>144000</effort>
-    <start-constraint-date>2018-12-22T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2018-12-28T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t145"/>
     <prerequisite-task idref="t146"/>
+    <prerequisite-task idref="t146"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-22T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-28T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t182">
     <title>完成故园风雨后心得与记录</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-28T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-02T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t181"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-28T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-02T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t183">
     <title>山月记</title>
     <effort>172800</effort>
-    <start-constraint-date>2018-12-28T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-02T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t182"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-28T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-02T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t184">
     <title>完成三月记心得与记录</title>
     <type>milestone</type>
-    <start-constraint-date>2019-01-04T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-08T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t183"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2019-01-04T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-08T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t185">
     <title>2.5 application</title>
@@ -1412,88 +1418,97 @@
   </task>
   <task id="t187">
     <title>BNGD@1～4</title>
-    <effort>28800</effort>
-    <effort-done>1440</effort-done>
-    <start-constraint-date>2018-12-21T23:00:00.000Z</start-constraint-date>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-21T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-23T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t188">
     <title>BNGD@4～7</title>
-    <effort>28800</effort>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t189"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-23T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t189">
     <title>finish 1，2，3@BNGD</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t187"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-23T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t190">
     <title>finish 4， 5， 6@BNGD</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-24T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t188"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-24T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t191">
     <title>BNGD@7～10</title>
-    <effort>28800</effort>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2018-12-24T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t190"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-24T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t192">
     <title>finish 7， 8，9@BNGD</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-26T00:45:00.000Z</start-constraint-date>
     <prerequisite-task idref="t191"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-26T00:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t193">
     <title>BNGD@10～13</title>
-    <effort>28800</effort>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-12-25T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t192"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-25T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t194">
     <title>finish 10， 11， 12@BNGD</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-25T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t193"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-25T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t195">
-    <title>BNGD@13～16</title>
-    <effort>28800</effort>
-    <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
+    <title>BNGD@13～17</title>
+    <effort>21600</effort>
+    <effort-done>21600</effort-done>
+    <start-constraint-date>2018-12-26T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t194"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-16T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-26T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t196">
     <title>finish 13， 14 15， 16@BNGD</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-22T23:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-27T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t195"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-22T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-27T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t197">
     <title>3.1Symbol Tables</title>
@@ -1919,7 +1934,7 @@
   <task id="t242">
     <title>4.4Shortest Paths</title>
     <effort>28800</effort>
-    <effort-done>288</effort-done>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-24T02:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t241"/>
@@ -1929,6 +1944,7 @@
   <task id="t243">
     <title>Shortest Paths finish</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2018-12-25T00:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t242"/>
     <assignment idref="r3"/>
@@ -1937,6 +1953,7 @@
   <task id="t244">
     <title>5.1String Sorts</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-24T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t243"/>
@@ -1946,6 +1963,7 @@
   <task id="t245">
     <title>String Sorts finish</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2018-12-25T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t244"/>
     <assignment idref="r3"/>
@@ -1954,6 +1972,7 @@
   <task id="t246">
     <title>5.2Tries</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-26T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t245"/>
@@ -1963,6 +1982,7 @@
   <task id="t247">
     <title>Tries finish</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2018-12-26T07:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t246"/>
     <assignment idref="r3"/>
@@ -1971,6 +1991,7 @@
   <task id="t248">
     <title>5.3Substring Search </title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-26T09:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t247"/>
@@ -1980,14 +2001,16 @@
   <task id="t249">
     <title>Substring Search finish</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-24T02:00:00.000Z</start-constraint-date>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-26T02:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t248"/>
     <assignment idref="r3"/>
-    <start-no-earlier-than>2018-12-24T02:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2018-12-26T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t250">
     <title>5.4Regular Expressions</title>
     <effort>28800</effort>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-28T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t249"/>
@@ -2018,6 +2041,183 @@
     <prerequisite-task idref="t252"/>
     <assignment idref="r3"/>
     <start-no-earlier-than>2018-12-31T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t254">
+    <title>昨日之旅</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t189"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-23T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t255">
+    <title>完成昨日之旅详细的读书笔记与心得记录</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t254"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-23T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t257">
+    <title>BNGD@17～20</title>
+    <effort>28800</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2018-12-27T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t196"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-27T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t258">
+    <title>finish 17， 18，19，20@BNGD</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-12-27T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t257"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-27T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t260">
+    <title>2019 Book Reading Plan work out</title>
+    <type>group</type>
+    <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
+    <static-cost>7</static-cost>
+    <child-task idref="t261"/>
+    <child-task idref="t262"/>
+    <child-task idref="t263"/>
+    <child-task idref="t264"/>
+    <child-task idref="t265"/>
+    <child-task idref="t266"/>
+    <child-task idref="t267"/>
+    <child-task idref="t268"/>
+    <child-task idref="t269"/>
+    <child-task idref="t270"/>
+    <child-task idref="t271"/>
+    <child-task idref="t272"/>
+    <child-task idref="t273"/>
+    <child-task idref="t274"/>
+    <start-no-earlier-than>2018-12-31T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t261">
+    <title>make Fiction &amp; Novel book list</title>
+    <effort>86400</effort>
+    <effort-done>8640</effort-done>
+    <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-12-31T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t262">
+    <title>Fiction &amp; Novel book list finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-03T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t261"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-03T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t263">
+    <title>make Chinese cultural book list</title>
+    <effort>86400</effort>
+    <start-constraint-date>2019-01-03T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t262"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-03T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t264">
+    <title>Chinese cultural book list finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-04T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t263"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t265">
+    <title>make Financial &amp; Manager book list</title>
+    <effort>86400</effort>
+    <start-constraint-date>2019-01-04T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t264"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-04T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t266">
+    <title>Financial &amp; Manager book list finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-10T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t265"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-10T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t267">
+    <title>make Habit book list</title>
+    <effort>86400</effort>
+    <start-constraint-date>2019-01-10T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t266"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-10T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t268">
+    <title>Habit  list finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-11T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t267"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-11T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t269">
+    <title>make wealth book list</title>
+    <effort>86400</effort>
+    <start-constraint-date>2019-01-11T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t268"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-11T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t270">
+    <title>wealth book list finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-16T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t269"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-16T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t271">
+    <title>make Entertaining  book list</title>
+    <effort>86400</effort>
+    <start-constraint-date>2019-01-16T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t270"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-16T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t272">
+    <title>Entertaining book list finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-18T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t271"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-18T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t273">
+    <title>make Professional book list</title>
+    <effort>86400</effort>
+    <start-constraint-date>2019-01-18T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t272"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-18T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t274">
+    <title>Professional book list finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-21T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t273"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-21T23:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

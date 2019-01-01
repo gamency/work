@@ -7,16 +7,16 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>402</split-view-divider-position>
-      <outline x="0" y="5387" w="402" h="677">
+      <outline x="0" y="5390" w="402" h="677">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="251"/>
         <column name="Effort" width="77"/>
         <column name="Status" width="20"/>
-        <expanded-items idrefs="t59 t24 t31 t138 t145 t80 t18 t201 t124 t117 t82 t40 t19 t110 t118 t41 t34 t125 t132 t111 t35 t42 t133 t36 t50 t119 t3 t43 t78 t79 t4 t134 t6 t10 t45 t7 t120 t156 t46 t8 t11 t60 t135 t61 t47 t12 t121 t97 t62 t48 t136 t143 t98 t49 t14 t115 t122 t99 t137 t58 t16 t116"/>
-        <selected-items-at-filter-time idrefs="t143 t73 t166 t189 t66 t201 t74 t178 t67 t144 t75 t190 t167 t202 t68 t91 t76 t179 t92 t145 t69 t77 t168 t10 t85 t203 t191 t93 t157 t180 t11 t94 t146 t192 t12 t20 t95 t181 t158 t88 t147 t96 t21 t193 t14 t89 t182 t159 t148 t194 t16 t160 t183 t24 t218 t149 t195 t161 t18 t184 t150 t219 t19 t196 t162 t185 t220 t128 t197 t163 t186 t221 t129 t175 t3 t198 t141 t164 t4 t187 t70 t130 t176 t6 t71 t142 t7 t199 t165 t64 t8 t188 t72 t131 t200 t177 t65"/>
+        <expanded-items idrefs="t59 t24 t31 t138 t145 t80 t18 t201 t124 t117 t82 t40 t19 t110 t118 t41 t34 t125 t132 t111 t35 t42 t133 t36 t260 t50 t3 t119 t43 t78 t79 t4 t134 t6 t10 t45 t7 t120 t156 t46 t8 t11 t60 t135 t61 t47 t12 t121 t97 t62 t48 t136 t143 t98 t49 t14 t115 t122 t99 t137 t58 t16 t116"/>
+        <selected-items-at-filter-time idrefs="t143 t73 t166 t189 t66 t201 t74 t178 t67 t144 t75 t190 t167 t259 t202 t68 t91 t76 t179 t92 t145 t69 t260 t77 t168 t85 t203 t10 t93 t191 t157 t180 t11 t94 t146 t261 t192 t12 t20 t95 t181 t158 t88 t147 t96 t262 t193 t21 t14 t89 t182 t159 t148 t194 t16 t160 t183 t24 t218 t149 t195 t161 t18 t184 t150 t219 t19 t196 t162 t254 t185 t220 t128 t197 t163 t255 t186 t221 t129 t175 t3 t198 t141 t164 t4 t256 t187 t70 t130 t176 t6 t71 t142 t7 t199 t165 t64 t8 t188 t72 t131 t200 t177 t65"/>
       </outline>
-      <gantt-view x="6300" y="5387" w="710" h="677">
+      <gantt-view x="6999" y="5390" w="710" h="677">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>254</next-task-id>
+    <next-task-id>275</next-task-id>
     <next-resource-id>5</next-resource-id>
     <scenario id="edjDN5uXs9o" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>

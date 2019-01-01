@@ -1,0 +1,28 @@
+1. andriod can get the press position, (abs value), mac still can not
+h5 also can get, 
+
+2. negative sample can save into database,  table name , appname , seperatable,  through cid judge the sample type.
+
+3. ios not pressure value
+
+4. control icon position
+
+5. trade of the model precision and data sample frequency, 
+
+6. login scenario , only type in have the sensor value
+
+7. browring scenario : auto click like and add user 
+
+8. same target , same operation, operation frequency 
+
+9. offline clustering , detect the frequency and less diff pattern , judge if it's a bot or not 
+
+10. detect if it's itself ()
+
+11.
+
+
+_______________________________________________
+12.  web text select , andriod , h5
+
+13.  mobile  slide ,weak 
