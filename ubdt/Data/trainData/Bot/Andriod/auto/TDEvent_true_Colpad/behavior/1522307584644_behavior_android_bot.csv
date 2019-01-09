@@ -1,0 +1,11 @@
+Time,Desc,Type
+1522307568186,AppStatusFront,AppStatus
+1522307569139,{"pressure":"1.0","text":"","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"480-72","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity"},Click
+1522307576835,{"pressure":"1.0","text":"1","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"480-72","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522307576823","endInputTime":"1522307576834"},Input
+1522307576867,{"pressure":"1.0","text":"12","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"480-72","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522307576823","endInputTime":"1522307576867"},Input
+1522307576895,{"pressure":"1.0","text":"123","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"480-72","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522307576823","endInputTime":"1522307576894"},Input
+1522307583046,{"pressure":"1.0","text":"1","viewPath":"[LinearLayout[0], EditText[1]]","viewSize":"480-72","viewID":"2131165311","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522307583040","endInputTime":"1522307583045"},Input
+1522307583069,{"pressure":"1.0","text":"12","viewPath":"[LinearLayout[0], EditText[1]]","viewSize":"480-72","viewID":"2131165311","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522307583040","endInputTime":"1522307583068"},Input
+1522307583089,{"pressure":"1.0","text":"123","viewPath":"[LinearLayout[0], EditText[1]]","viewSize":"480-72","viewID":"2131165311","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522307583040","endInputTime":"1522307583088"},Input
+1522307583827,{"pressure":"1.0","text":"登录","viewPath":"[LinearLayout[0], Button[0]]","viewSize":"480-72","viewID":"2131165248","activity":"cn.tongdun.eventtrack.demo.LoginActivity"},Click
+1522307584637,{"pressure":"1.0","text":"点击测试","viewPath":"[ScrollView[0], LinearLayout[0], Button[0]]","viewSize":"480-90","viewID":"2131165222","activity":"cn.tongdun.eventtrack.demo.MainActivity"},Click

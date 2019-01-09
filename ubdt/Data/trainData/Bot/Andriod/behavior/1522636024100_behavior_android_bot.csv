@@ -1,0 +1,11 @@
+Time,Desc,Type
+1522636009796,AppStatusFront,AppStatus
+1522636010629,{"pressure":"1.0","text":"","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"720-96","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity"},Click
+1522636014100,{"pressure":"1.0","text":"","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"720-96","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity"},Click
+1522636016450,{"pressure":"1.0","text":"","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"720-96","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity"},Click
+1522636018265,{"pressure":"1.0","text":"1","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"720-96","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522636018258","endInputTime":"1522636018263"},Input
+1522636018287,{"pressure":"1.0","text":"12","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"720-96","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522636018258","endInputTime":"1522636018285"},Input
+1522636018304,{"pressure":"1.0","text":"123","viewPath":"[LinearLayout[0], EditText[0]]","viewSize":"720-96","viewID":"2131165310","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522636018258","endInputTime":"1522636018303"},Input
+1522636019987,{"pressure":"1.0","text":"","viewPath":"[LinearLayout[0], EditText[1]]","viewSize":"720-96","viewID":"2131165311","activity":"cn.tongdun.eventtrack.demo.LoginActivity"},Click
+1522636022292,{"pressure":"1.0","text":"","viewPath":"[LinearLayout[0], EditText[1]]","viewSize":"720-96","viewID":"2131165311","activity":"cn.tongdun.eventtrack.demo.LoginActivity"},Click
+1522636024089,{"pressure":"1.0","text":"1","viewPath":"[LinearLayout[0], EditText[1]]","viewSize":"720-96","viewID":"2131165311","activity":"cn.tongdun.eventtrack.demo.LoginActivity","startInputTime":"1522636024083","endInputTime":"1522636024087"},Input

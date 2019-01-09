@@ -1,0 +1,11 @@
+Time,Desc,Type
+1522306598099,AppStatusFront,AppStatus
+1522306601866,{"viewSize":"1080-126","viewID":"2131165310","text":"","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[0]]"},Click
+1522306605355,{"viewSize":"1080-126","viewID":"2131165310","text":"","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[0]]"},Click
+1522306607819,{"viewSize":"1080-126","viewID":"2131165310","text":"","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[0]]"},Click
+1522306609616,{"viewSize":"1080-126","viewID":"2131165310","text":"1","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[0]]","startInputTime":"1522306609610","endInputTime":"1522306609616"},Input
+1522306609630,{"viewSize":"1080-126","viewID":"2131165310","text":"12","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[0]]","startInputTime":"1522306609610","endInputTime":"1522306609629"},Input
+1522306609916,{"viewSize":"1080-126","viewID":"2131165310","text":"123","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[0]]","startInputTime":"1522306609610","endInputTime":"1522306609915"},Input
+1522306611658,{"viewSize":"1080-126","viewID":"2131165311","text":"","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[1]]"},Click
+1522306614142,{"viewSize":"1080-126","viewID":"2131165311","text":"","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[1]]"},Click
+1522306616218,{"viewSize":"1080-126","viewID":"2131165311","text":"1","pressure":"1.0","activity":"cn.tongdun.eventtrack.demo.LoginActivity","viewPath":"[LinearLayout[0], EditText[1]]","startInputTime":"1522306616216","endInputTime":"1522306616217"},Input
