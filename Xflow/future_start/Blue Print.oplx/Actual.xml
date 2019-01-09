@@ -159,7 +159,7 @@
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
-    <static-cost>78.5</static-cost>
+    <static-cost>107.5</static-cost>
     <child-task idref="t16"/>
     <child-task idref="t24"/>
     <child-task idref="t25"/>
@@ -289,6 +289,8 @@
   <task id="t20">
     <title>AIOPS@学术界在该领域上的研究成果收集</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-05T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -298,6 +300,8 @@
   <task id="t21">
     <title>AIOPS@工业界在该领域上的落地实现与效果调研</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-11T11:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -309,7 +313,7 @@
     <title>Personal Development</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>29</static-cost>
+    <static-cost>58</static-cost>
     <child-task idref="t34"/>
     <child-task idref="t35"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
@@ -375,7 +379,7 @@
     <title>Reading</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>23</static-cost>
+    <static-cost>53</static-cost>
     <child-task idref="t260"/>
     <child-task idref="t40"/>
     <child-task idref="t41"/>
@@ -387,22 +391,23 @@
     <title>Skill Learning</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>6</static-cost>
+    <static-cost>5</static-cost>
     <child-task idref="t36"/>
     <child-task idref="t38"/>
     <child-task idref="t39"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t36">
-    <title>Management</title>
+    <title>Management&amp;Method</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>6</static-cost>
+    <static-cost>5</static-cost>
     <child-task idref="t51"/>
     <child-task idref="t52"/>
     <child-task idref="t53"/>
     <child-task idref="t54"/>
     <child-task idref="t55"/>
+    <child-task idref="t327"/>
     <child-task idref="t57"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
@@ -423,7 +428,7 @@
     <title>Fiction&amp;Novel</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>16</static-cost>
+    <static-cost>46</static-cost>
     <child-task idref="t45"/>
     <child-task idref="t46"/>
     <child-task idref="t47"/>
@@ -460,31 +465,39 @@
     <title>France</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t370"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t47">
     <title>England</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <static-cost>26</static-cost>
+    <child-task idref="t351"/>
+    <child-task idref="t181"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t48">
     <title>Europe</title>
     <type>group</type>
-    <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2019-01-01T00:00:00.000Z</start-constraint-date>
+    <static-cost>6</static-cost>
+    <child-task idref="t275"/>
+    <child-task idref="t337"/>
+    <start-no-earlier-than>2019-01-01T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t49">
-    <title>Chinese</title>
+    <title>Chinese&amp;Asia</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t183"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t50">
     <title>Book Club recommendation</title>
     <type>group</type>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
-    <static-cost>16</static-cost>
+    <static-cost>14</static-cost>
     <child-task idref="t218"/>
     <child-task idref="t141"/>
     <child-task idref="t142"/>
@@ -493,10 +506,6 @@
     <child-task idref="t145"/>
     <child-task idref="t254"/>
     <child-task idref="t255"/>
-    <child-task idref="t181"/>
-    <child-task idref="t182"/>
-    <child-task idref="t183"/>
-    <child-task idref="t184"/>
     <start-no-earlier-than>2018-12-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t51">
@@ -522,17 +531,15 @@
     <type>group</type>
     <start-constraint-date>2018-12-11T00:00:00.000Z</start-constraint-date>
     <static-cost>5</static-cost>
+    <child-task idref="t295"/>
     <child-task idref="t143"/>
-    <child-task idref="t144"/>
     <start-no-earlier-than>2018-12-11T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t55">
     <title>Thinking</title>
     <type>group</type>
     <start-constraint-date>2018-12-10T00:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
     <child-task idref="t149"/>
-    <child-task idref="t150"/>
     <start-no-earlier-than>2018-12-10T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t57">
@@ -588,6 +595,8 @@
   <task id="t64">
     <title>人机数据治理到对应库／文件</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -597,6 +606,8 @@
   <task id="t65">
     <title>人机完成全流程框架图的输出及对应功能的输出</title>
     <effort>57600</effort>
+    <min-estimate>28800</min-estimate>
+    <max-estimate>86400</max-estimate>
     <start-constraint-date>2019-01-03T02:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t71"/>
@@ -606,6 +617,8 @@
   <task id="t66">
     <title>人机完成现有特征库的封装</title>
     <effort>115200</effort>
+    <min-estimate>57600</min-estimate>
+    <max-estimate>172800</max-estimate>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t72"/>
@@ -615,6 +628,8 @@
   <task id="t67">
     <title>人机完成现有模型库封装</title>
     <effort>115200</effort>
+    <min-estimate>57600</min-estimate>
+    <max-estimate>172800</max-estimate>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t73"/>
@@ -624,6 +639,8 @@
   <task id="t68">
     <title>人机完成可视化与打标web前后端</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t74"/>
@@ -633,6 +650,8 @@
   <task id="t69">
     <title>人机全流程，全功能调试通</title>
     <effort>57600</effort>
+    <min-estimate>28800</min-estimate>
+    <max-estimate>86400</max-estimate>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t75"/>
@@ -642,6 +661,8 @@
   <task id="t70">
     <title>完成打包封装@人机</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t76"/>
@@ -746,6 +767,8 @@
   <task id="t83">
     <title>第一轮DV 资料收集</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-05T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -764,12 +787,14 @@
   <task id="t88">
     <title>进行第一轮资料的详细分析@DV</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>288</effort-done>
-    <start-constraint-date>2018-12-25T11:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-14T11:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t85"/>
     <assignment idref="r3"/>
-    <start-no-earlier-than>2018-12-25T11:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-14T11:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t89">
     <title>完成第一轮资料的详细分析@DV</title>
@@ -782,6 +807,8 @@
   <task id="t91">
     <title>Fintec金融反欺诈材料分析</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -791,6 +818,8 @@
   <task id="t92">
     <title>数美反欺诈体系材料分析</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -936,6 +965,8 @@
   <task id="t128">
     <title>收集AutoML相关的资料与资源，形成资源列表</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-09T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -954,12 +985,14 @@
   <task id="t130">
     <title>进行第一轮资料的分析@AutoML</title>
     <effort>144000</effort>
+    <min-estimate>72000</min-estimate>
+    <max-estimate>216000</max-estimate>
     <effort-done>14400</effort-done>
-    <start-constraint-date>2019-01-02T11:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-07T11:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t129"/>
     <assignment idref="r3"/>
-    <start-no-earlier-than>2019-01-02T11:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-07T11:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t131">
     <title>完成第一轮资料的分析与总结@AutoML</title>
@@ -1000,6 +1033,8 @@
   <task id="t141">
     <title>局外人 加缪</title>
     <effort>72000</effort>
+    <min-estimate>36000</min-estimate>
+    <max-estimate>108000</max-estimate>
     <effort-done>72000</effort-done>
     <start-constraint-date>2018-12-05T00:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1018,7 +1053,7 @@
   <task id="t143">
     <title>自控力</title>
     <type>group</type>
-    <start-constraint-date>2018-12-11T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-09T00:00:00.000Z</start-constraint-date>
     <static-cost>5</static-cost>
     <child-task idref="t165"/>
     <child-task idref="t166"/>
@@ -1030,13 +1065,15 @@
     <child-task idref="t172"/>
     <child-task idref="t173"/>
     <child-task idref="t174"/>
-    <start-no-earlier-than>2018-12-11T00:00:00.000Z</start-no-earlier-than>
+    <child-task idref="t144"/>
+    <prerequisite-task idref="t295"/>
+    <start-no-earlier-than>2019-01-09T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t144">
     <title>完成xmind梳理@自控力</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-15T23:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t143"/>
+    <prerequisite-task idref="t174"/>
     <assignment idref="r4"/>
     <start-no-earlier-than>2018-12-15T23:00:00.000Z</start-no-earlier-than>
   </task>
@@ -1064,6 +1101,7 @@
   <task id="t146">
     <title>完成百年孤独心得与记录</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2018-12-29T01:50:00.000Z</start-constraint-date>
     <prerequisite-task idref="t258"/>
     <assignment idref="r4"/>
@@ -1072,6 +1110,8 @@
   <task id="t147">
     <title>1984</title>
     <effort>144000</effort>
+    <min-estimate>72000</min-estimate>
+    <max-estimate>216000</max-estimate>
     <effort-done>144000</effort-done>
     <start-constraint-date>2018-12-11T00:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1090,17 +1130,15 @@
   </task>
   <task id="t149">
     <title>思考的艺术</title>
-    <effort>576000</effort>
-    <start-constraint-date>2018-12-24T00:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-24T00:00:00.000Z</start-no-earlier-than>
+    <type>group</type>
+    <start-constraint-date>2019-02-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t150"/>
+    <start-no-earlier-than>2019-02-25T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t150">
     <title>完成思考的艺术xmind的梳理输出</title>
     <type>milestone</type>
     <start-constraint-date>2018-12-30T23:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t149"/>
     <assignment idref="r4"/>
     <start-no-earlier-than>2018-12-30T23:00:00.000Z</start-no-earlier-than>
   </task>
@@ -1152,6 +1190,8 @@
   <task id="t157">
     <title>2.1 Elementary Sort</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
     <effort-done>86400</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1170,6 +1210,8 @@
   <task id="t159">
     <title>反欺诈体系的思路梳理</title>
     <effort>288000</effort>
+    <min-estimate>144000</min-estimate>
+    <max-estimate>432000</max-estimate>
     <effort-done>288000</effort-done>
     <start-constraint-date>2018-12-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1188,6 +1230,8 @@
   <task id="t161">
     <title>2.2 Merge Sort</title>
     <effort>21600</effort>
+    <min-estimate>10800</min-estimate>
+    <max-estimate>32400</max-estimate>
     <effort-done>21600</effort-done>
     <start-constraint-date>2018-12-11T07:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t158"/>
@@ -1206,6 +1250,8 @@
   <task id="t163">
     <title>资料2 风控防御体系分析</title>
     <effort>7200</effort>
+    <min-estimate>3600</min-estimate>
+    <max-estimate>10800</max-estimate>
     <effort-done>7200</effort-done>
     <start-constraint-date>2018-12-07T05:00:00.000Z</start-constraint-date>
     <static-cost>0.5</static-cost>
@@ -1224,6 +1270,8 @@
   <task id="t165">
     <title>ZKL@CH1 &amp; CH2</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2019-01-07T00:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r4"/>
@@ -1232,36 +1280,40 @@
   <task id="t166">
     <title>CH1 &amp; CH2 finish@ZKL</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-11T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-09T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t165"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-11T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-09T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t167">
     <title>ZKL@CH3 &amp; CH4</title>
     <effort>28800</effort>
-    <start-constraint-date>2018-12-12T23:00:00.000Z</start-constraint-date>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-10T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t166"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-12T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-10T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t168">
     <title>CH3 &amp; CH4 finish@ZKL</title>
     <type>milestone</type>
-    <start-constraint-date>2018-12-13T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2019-01-10T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t167"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-13T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-10T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t169">
     <title>ZKL@CH5 &amp; CH6</title>
     <effort>28800</effort>
-    <start-constraint-date>2018-12-13T23:00:00.000Z</start-constraint-date>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-10T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t168"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-13T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-10T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t170">
     <title>CH5 &amp; CH6 finish@ZKL</title>
@@ -1274,6 +1326,8 @@
   <task id="t171">
     <title>ZKL@CH8 &amp; CH9</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-14T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t170"/>
@@ -1291,6 +1345,8 @@
   <task id="t173">
     <title>ZKL@CH10</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-15T14:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t172"/>
@@ -1308,6 +1364,8 @@
   <task id="t175">
     <title>2.3 Quick Sort</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-12T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1327,6 +1385,8 @@
   <task id="t177">
     <title>广告反作弊材料分析</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-12T06:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1345,6 +1405,8 @@
   <task id="t179">
     <title>2.4 Priority Queue</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-11T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1363,43 +1425,66 @@
   </task>
   <task id="t181">
     <title>故园风雨后</title>
-    <effort>144000</effort>
-    <start-constraint-date>2018-12-28T23:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
-    <prerequisite-task idref="t145"/>
-    <prerequisite-task idref="t146"/>
-    <prerequisite-task idref="t146"/>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2018-12-28T23:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t182">
-    <title>完成故园风雨后心得与记录</title>
-    <type>milestone</type>
-    <start-constraint-date>2019-01-02T23:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t181"/>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2019-01-02T23:00:00.000Z</start-no-earlier-than>
+    <type>group</type>
+    <start-constraint-date>2019-02-10T23:00:00.000Z</start-constraint-date>
+    <static-cost>13</static-cost>
+    <child-task idref="t398"/>
+    <child-task idref="t399"/>
+    <child-task idref="t400"/>
+    <child-task idref="t401"/>
+    <child-task idref="t402"/>
+    <child-task idref="t403"/>
+    <child-task idref="t404"/>
+    <child-task idref="t405"/>
+    <child-task idref="t406"/>
+    <child-task idref="t407"/>
+    <child-task idref="t408"/>
+    <child-task idref="t409"/>
+    <child-task idref="t410"/>
+    <child-task idref="t411"/>
+    <child-task idref="t412"/>
+    <child-task idref="t413"/>
+    <child-task idref="t414"/>
+    <child-task idref="t415"/>
+    <child-task idref="t416"/>
+    <child-task idref="t417"/>
+    <child-task idref="t418"/>
+    <child-task idref="t419"/>
+    <child-task idref="t420"/>
+    <child-task idref="t421"/>
+    <child-task idref="t422"/>
+    <child-task idref="t423"/>
+    <start-no-earlier-than>2019-02-10T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t183">
     <title>山月记</title>
-    <effort>172800</effort>
-    <start-constraint-date>2019-01-02T23:00:00.000Z</start-constraint-date>
-    <static-cost>1</static-cost>
-    <prerequisite-task idref="t182"/>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2019-01-02T23:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t184">
-    <title>完成三月记心得与记录</title>
-    <type>milestone</type>
-    <start-constraint-date>2019-01-08T23:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t183"/>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2019-01-08T23:00:00.000Z</start-no-earlier-than>
+    <type>group</type>
+    <start-constraint-date>2019-02-10T23:00:00.000Z</start-constraint-date>
+    <child-task idref="t424"/>
+    <child-task idref="t425"/>
+    <child-task idref="t426"/>
+    <child-task idref="t427"/>
+    <child-task idref="t428"/>
+    <child-task idref="t429"/>
+    <child-task idref="t430"/>
+    <child-task idref="t431"/>
+    <child-task idref="t432"/>
+    <child-task idref="t433"/>
+    <child-task idref="t434"/>
+    <child-task idref="t435"/>
+    <child-task idref="t436"/>
+    <child-task idref="t437"/>
+    <child-task idref="t438"/>
+    <child-task idref="t439"/>
+    <child-task idref="t440"/>
+    <child-task idref="t441"/>
+    <start-no-earlier-than>2019-02-10T23:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t185">
     <title>2.5 application</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1419,6 +1504,8 @@
   <task id="t187">
     <title>BNGD@1～4</title>
     <effort>7200</effort>
+    <min-estimate>3600</min-estimate>
+    <max-estimate>10800</max-estimate>
     <effort-done>7200</effort-done>
     <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1428,6 +1515,8 @@
   <task id="t188">
     <title>BNGD@4～7</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1456,6 +1545,8 @@
   <task id="t191">
     <title>BNGD@7～10</title>
     <effort>10800</effort>
+    <min-estimate>5400</min-estimate>
+    <max-estimate>16200</max-estimate>
     <effort-done>10800</effort-done>
     <start-constraint-date>2018-12-24T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1475,6 +1566,8 @@
   <task id="t193">
     <title>BNGD@10～13</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-25T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1494,6 +1587,8 @@
   <task id="t195">
     <title>BNGD@13～17</title>
     <effort>21600</effort>
+    <min-estimate>10800</min-estimate>
+    <max-estimate>32400</max-estimate>
     <effort-done>21600</effort-done>
     <start-constraint-date>2018-12-26T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1513,6 +1608,8 @@
   <task id="t197">
     <title>3.1Symbol Tables</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-17T11:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1532,6 +1629,8 @@
   <task id="t199">
     <title>3.2Binary Search Tree</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-17T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1574,10 +1673,12 @@
   <task id="t202">
     <title>HoMwsTF@CH9</title>
     <effort>28800</effort>
-    <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-08T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r3"/>
-    <start-no-earlier-than>2018-12-31T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-08T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t203">
     <title>CH9@HoMwsTF finish</title>
@@ -1590,6 +1691,8 @@
   <task id="t204">
     <title>HoMwsTF@CH10</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t203"/>
@@ -1607,6 +1710,8 @@
   <task id="t206">
     <title>HoMwsTF@CH11</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t205"/>
@@ -1624,6 +1729,8 @@
   <task id="t208">
     <title>HoMwsTF@CH12</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t207"/>
@@ -1641,6 +1748,8 @@
   <task id="t210">
     <title>HoMwsTF@CH13</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t209"/>
@@ -1658,6 +1767,8 @@
   <task id="t212">
     <title>HoMwsTF@CH14</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t211"/>
@@ -1675,6 +1786,8 @@
   <task id="t214">
     <title>HoMwsTF@CH15</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t213"/>
@@ -1692,6 +1805,8 @@
   <task id="t216">
     <title>HoMwsTF@CH16</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <start-constraint-date>2019-01-07T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t215"/>
@@ -1726,6 +1841,8 @@
   <task id="t220">
     <title>FSM@1～6</title>
     <effort>5400</effort>
+    <min-estimate>2700</min-estimate>
+    <max-estimate>8100</max-estimate>
     <effort-done>5400</effort-done>
     <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1744,6 +1861,8 @@
   <task id="t222">
     <title>FSM@6～12</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1763,6 +1882,8 @@
   <task id="t224">
     <title>FSM@12～17</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1782,6 +1903,8 @@
   <task id="t226">
     <title>FSM@17～23</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1801,6 +1924,8 @@
   <task id="t228">
     <title>FSM@23～26</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-16T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1820,6 +1945,8 @@
   <task id="t230">
     <title>3.3Balanced Search Trees</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-19T00:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1839,6 +1966,8 @@
   <task id="t232">
     <title>3.4Hash Tables</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-19T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1858,6 +1987,8 @@
   <task id="t234">
     <title>3.5Application</title>
     <effort>3600</effort>
+    <min-estimate>1800</min-estimate>
+    <max-estimate>5400</max-estimate>
     <effort-done>3600</effort-done>
     <start-constraint-date>2018-12-20T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1877,6 +2008,8 @@
   <task id="t236">
     <title>4.1Undirected Graph</title>
     <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
     <effort-done>14400</effort-done>
     <start-constraint-date>2018-12-20T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1896,6 +2029,8 @@
   <task id="t238">
     <title>4.2Directed Graph</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-21T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1915,6 +2050,8 @@
   <task id="t240">
     <title>4.3Minimum Spanning Trees</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-23T09:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1934,6 +2071,8 @@
   <task id="t242">
     <title>4.4Shortest Paths</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-24T02:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1953,6 +2092,8 @@
   <task id="t244">
     <title>5.1String Sorts</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-24T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1972,6 +2113,8 @@
   <task id="t246">
     <title>5.2Tries</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-26T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -1991,6 +2134,8 @@
   <task id="t248">
     <title>5.3Substring Search </title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
     <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-26T09:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
@@ -2010,7 +2155,9 @@
   <task id="t250">
     <title>5.4Regular Expressions</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-28T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t249"/>
@@ -2020,6 +2167,7 @@
   <task id="t251">
     <title>Regular Expressions finish</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2018-12-28T00:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t250"/>
     <assignment idref="r3"/>
@@ -2028,6 +2176,9 @@
   <task id="t252">
     <title>5.5Data Compression</title>
     <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <effort-done>17280</effort-done>
     <start-constraint-date>2018-12-28T02:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t251"/>
@@ -2045,10 +2196,11 @@
   <task id="t254">
     <title>昨日之旅</title>
     <effort>57600</effort>
+    <min-estimate>28800</min-estimate>
+    <max-estimate>86400</max-estimate>
     <effort-done>57600</effort-done>
     <start-constraint-date>2018-12-23T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
-    <prerequisite-task idref="t189"/>
     <assignment idref="r4"/>
     <start-no-earlier-than>2018-12-23T23:00:00.000Z</start-no-earlier-than>
   </task>
@@ -2064,7 +2216,9 @@
   <task id="t257">
     <title>BNGD@17～20</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2018-12-27T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t196"/>
@@ -2074,6 +2228,7 @@
   <task id="t258">
     <title>finish 17， 18，19，20@BNGD</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2018-12-27T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t257"/>
     <assignment idref="r4"/>
@@ -2103,7 +2258,9 @@
   <task id="t261">
     <title>make Fiction &amp; Novel book list</title>
     <effort>86400</effort>
-    <effort-done>8640</effort-done>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
+    <effort-done>86400</effort-done>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r4"/>
@@ -2112,6 +2269,7 @@
   <task id="t262">
     <title>Fiction &amp; Novel book list finish</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2019-01-03T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t261"/>
     <assignment idref="r4"/>
@@ -2120,11 +2278,14 @@
   <task id="t263">
     <title>make Chinese cultural book list</title>
     <effort>86400</effort>
-    <start-constraint-date>2019-01-03T23:00:00.000Z</start-constraint-date>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
+    <effort-done>864</effort-done>
+    <start-constraint-date>2019-01-08T06:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t262"/>
     <assignment idref="r4"/>
-    <start-no-earlier-than>2019-01-03T23:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2019-01-08T06:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t264">
     <title>Chinese cultural book list finish</title>
@@ -2137,6 +2298,9 @@
   <task id="t265">
     <title>make Financial &amp; Manager book list</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
+    <effort-done>864</effort-done>
     <start-constraint-date>2019-01-04T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t264"/>
@@ -2154,6 +2318,8 @@
   <task id="t267">
     <title>make Habit book list</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
     <start-constraint-date>2019-01-10T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t266"/>
@@ -2171,6 +2337,8 @@
   <task id="t269">
     <title>make wealth book list</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
     <start-constraint-date>2019-01-11T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t268"/>
@@ -2188,6 +2356,8 @@
   <task id="t271">
     <title>make Entertaining  book list</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
     <start-constraint-date>2019-01-16T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t270"/>
@@ -2205,6 +2375,9 @@
   <task id="t273">
     <title>make Professional book list</title>
     <effort>86400</effort>
+    <min-estimate>43200</min-estimate>
+    <max-estimate>129600</max-estimate>
+    <effort-done>864</effort-done>
     <start-constraint-date>2019-01-18T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t272"/>
@@ -2218,6 +2391,1558 @@
     <prerequisite-task idref="t273"/>
     <assignment idref="r4"/>
     <start-no-earlier-than>2019-01-21T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t275">
+    <title>看不见的城市</title>
+    <type>group</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <child-task idref="t276"/>
+    <child-task idref="t278"/>
+    <child-task idref="t279"/>
+    <child-task idref="t280"/>
+    <child-task idref="t281"/>
+    <child-task idref="t282"/>
+    <child-task idref="t283"/>
+    <child-task idref="t284"/>
+    <child-task idref="t285"/>
+    <child-task idref="t286"/>
+    <child-task idref="t287"/>
+    <child-task idref="t288"/>
+    <child-task idref="t289"/>
+    <child-task idref="t290"/>
+    <child-task idref="t291"/>
+    <child-task idref="t292"/>
+    <child-task idref="t293"/>
+    <child-task idref="t294"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t276">
+    <title>KBJDCS@第一章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-06T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t278">
+    <title>第一章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t276"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t279">
+    <title>KBJDCS@第二章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t278"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t280">
+    <title>第二章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t279"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t281">
+    <title>KBJDCS@第三章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-06T12:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t280"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t282">
+    <title>第三章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t281"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t283">
+    <title>KBJDCS@第四章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t282"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t284">
+    <title>第四章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t283"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t285">
+    <title>KBJDCS@第五章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t284"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t286">
+    <title>第五章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t285"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t287">
+    <title>KBJDCS@第六章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t286"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t288">
+    <title>第六章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t287"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t289">
+    <title>KBJDCS@第七章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t288"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t290">
+    <title>第七章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t289"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t291">
+    <title>KBJDCS@第八章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t290"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t292">
+    <title>第八章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t291"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t293">
+    <title>KBJDCS@第九章</title>
+    <effort>3600</effort>
+    <min-estimate>1800</min-estimate>
+    <max-estimate>5400</max-estimate>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t292"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t294">
+    <title>第九章@KBJDCS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t293"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t295">
+    <title>人生十论</title>
+    <type>group</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <child-task idref="t296"/>
+    <child-task idref="t298"/>
+    <child-task idref="t299"/>
+    <child-task idref="t300"/>
+    <child-task idref="t301"/>
+    <child-task idref="t302"/>
+    <child-task idref="t303"/>
+    <child-task idref="t304"/>
+    <child-task idref="t305"/>
+    <child-task idref="t306"/>
+    <child-task idref="t307"/>
+    <child-task idref="t308"/>
+    <child-task idref="t309"/>
+    <child-task idref="t310"/>
+    <child-task idref="t311"/>
+    <child-task idref="t312"/>
+    <child-task idref="t313"/>
+    <child-task idref="t314"/>
+    <child-task idref="t315"/>
+    <child-task idref="t316"/>
+    <child-task idref="t317"/>
+    <child-task idref="t318"/>
+    <child-task idref="t319"/>
+    <child-task idref="t320"/>
+    <child-task idref="t321"/>
+    <child-task idref="t322"/>
+    <child-task idref="t323"/>
+    <child-task idref="t324"/>
+    <child-task idref="t325"/>
+    <child-task idref="t326"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t296">
+    <title>RSSL@第一章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t298">
+    <title>第一章@RSSL finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t296"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t299">
+    <title>RSSL@第二章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2019-01-07T14:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t298"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-07T14:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t300">
+    <title>第二章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t299"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t301">
+    <title>RSSL@第三章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t300"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t302">
+    <title>第三章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t301"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t303">
+    <title>RSSL@第四章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t302"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t304">
+    <title>第四章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t303"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t305">
+    <title>RSSL@第五章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t304"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t306">
+    <title>第五章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t305"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t307">
+    <title>RSSL@第六章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t306"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t308">
+    <title>第六章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t307"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t309">
+    <title>RSSL@第七章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t308"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t310">
+    <title>第七章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t309"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t311">
+    <title>RSSL@第八章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t310"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t312">
+    <title>第八章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t311"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t313">
+    <title>RSSL@第九章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t312"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t314">
+    <title>第九章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t313"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t315">
+    <title>RSSL@第十章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t314"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t316">
+    <title>第十章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t315"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t317">
+    <title>RSSL@第十一章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t316"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t318">
+    <title>第十一章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t317"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t319">
+    <title>RSSL@第十二章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t318"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t320">
+    <title>第十二章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t319"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t321">
+    <title>RSSL@第十三章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t320"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t322">
+    <title>第十三章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t321"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t323">
+    <title>RSSL@第十四章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t322"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t324">
+    <title>第十四章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t323"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t325">
+    <title>RSSL@第十五章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t324"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t326">
+    <title>第十五章@RSSL finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t325"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t327">
+    <title>Method</title>
+    <type>group</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <child-task idref="t328"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t328">
+    <title>聪明人用方格笔记本</title>
+    <type>group</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <child-task idref="t329"/>
+    <child-task idref="t331"/>
+    <child-task idref="t332"/>
+    <child-task idref="t333"/>
+    <child-task idref="t334"/>
+    <child-task idref="t335"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t329">
+    <title>FGBJB@ 第一章&amp;第二章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2019-01-07T23:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-07T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t331">
+    <title>第一章&amp;第二章@FGBJB  finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t329"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t332">
+    <title>FGBJB@ 第三章&amp;第四章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <effort-done>4320</effort-done>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t331"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t333">
+    <title>第三章&amp;第四章@FGBJB  finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t332"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t334">
+    <title>FGBJB@ 第五章</title>
+    <effort>14400</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>21600</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t333"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t335">
+    <title>第五章@FGBJB  finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t334"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t337">
+    <title>不存在的骑士</title>
+    <type>group</type>
+    <start-constraint-date>2019-01-07T23:00:00.000Z</start-constraint-date>
+    <static-cost>6</static-cost>
+    <child-task idref="t339"/>
+    <child-task idref="t340"/>
+    <child-task idref="t341"/>
+    <child-task idref="t342"/>
+    <child-task idref="t343"/>
+    <child-task idref="t344"/>
+    <child-task idref="t345"/>
+    <child-task idref="t346"/>
+    <child-task idref="t347"/>
+    <child-task idref="t348"/>
+    <child-task idref="t349"/>
+    <child-task idref="t350"/>
+    <start-no-earlier-than>2019-01-07T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t339">
+    <title>BCZDQS@第一、 二章</title>
+    <effort>3600</effort>
+    <min-estimate>1800</min-estimate>
+    <max-estimate>5400</max-estimate>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t340">
+    <title>第一、 二章@BCZDQS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t339"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t341">
+    <title>BCZDQS@第三、 四章</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t340"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t342">
+    <title>第三、 四章@BCZDQS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t341"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t343">
+    <title>BCZDQS@第五、 六章</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t342"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t344">
+    <title>第五、 六章@BCZDQS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t343"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t345">
+    <title>BCZDQS@第七、 八章</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t344"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t346">
+    <title>第七、 八章@BCZDQS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t345"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t347">
+    <title>BCZDQS@第九、 十章</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t346"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t348">
+    <title>第九、 十章@BCZDQS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t347"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t349">
+    <title>BCZDQS@第十一、 十二章</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t348"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t350">
+    <title>第十一、 十二章@BCZDQS finish</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2019-01-06T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t349"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t351">
+    <title>人性的枷锁</title>
+    <type>group</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>13</static-cost>
+    <child-task idref="t352"/>
+    <child-task idref="t353"/>
+    <child-task idref="t354"/>
+    <child-task idref="t355"/>
+    <child-task idref="t356"/>
+    <child-task idref="t357"/>
+    <child-task idref="t358"/>
+    <child-task idref="t359"/>
+    <child-task idref="t360"/>
+    <child-task idref="t361"/>
+    <child-task idref="t362"/>
+    <child-task idref="t363"/>
+    <child-task idref="t364"/>
+    <child-task idref="t365"/>
+    <child-task idref="t366"/>
+    <child-task idref="t367"/>
+    <child-task idref="t368"/>
+    <child-task idref="t369"/>
+    <child-task idref="t389"/>
+    <child-task idref="t390"/>
+    <child-task idref="t391"/>
+    <child-task idref="t392"/>
+    <child-task idref="t393"/>
+    <child-task idref="t394"/>
+    <child-task idref="t395"/>
+    <child-task idref="t396"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t352">
+    <title>RXDJS@第一章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <effort-done>288</effort-done>
+    <start-constraint-date>2019-01-14T12:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-14T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t353">
+    <title>第一章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t352"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t354">
+    <title>RXDJS@第二章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t353"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t355">
+    <title>第二章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t354"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t356">
+    <title>RXDJS@第三章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-06T12:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t355"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t357">
+    <title>第三章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t356"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t358">
+    <title>RXDJS@第四章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t357"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t359">
+    <title>第四章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t358"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t360">
+    <title>RXDJS@第五章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t359"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t361">
+    <title>第五章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t360"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t362">
+    <title>RXDJS@第六章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t361"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t363">
+    <title>第六章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t362"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t364">
+    <title>RXDJS@第七章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t363"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t365">
+    <title>第七章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t364"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t366">
+    <title>RXDJS@第八章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t365"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t367">
+    <title>第八章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t366"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t368">
+    <title>RXDJS@第九章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t367"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t369">
+    <title>第九章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t368"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t370">
+    <title>莫泊桑短篇小说选</title>
+    <type>group</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <child-task idref="t371"/>
+    <child-task idref="t372"/>
+    <child-task idref="t373"/>
+    <child-task idref="t374"/>
+    <child-task idref="t375"/>
+    <child-task idref="t376"/>
+    <child-task idref="t377"/>
+    <child-task idref="t378"/>
+    <child-task idref="t379"/>
+    <child-task idref="t380"/>
+    <child-task idref="t381"/>
+    <child-task idref="t382"/>
+    <child-task idref="t383"/>
+    <child-task idref="t384"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t371">
+    <title>MBS@第一章 1～9</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-28T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-28T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t372">
+    <title>第一章@ MBS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t371"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t373">
+    <title>MBS@第二章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t372"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t374">
+    <title>第二章@ MBS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t373"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t375">
+    <title>MBS@第三章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-06T12:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t374"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t376">
+    <title>第三章@ MBS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t375"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t377">
+    <title>MBS@第四章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t376"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t378">
+    <title>第四章@ MBS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t377"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t379">
+    <title>MBS@第五章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t378"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t380">
+    <title>第五章@ MBS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t379"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t381">
+    <title>MBS@第六章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t380"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t382">
+    <title>第六章@ MBS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t381"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t383">
+    <title>MBS@第七章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t382"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t384">
+    <title>第七章@ MBS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t383"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t389">
+    <title>RXDJS@第十章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t369"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t390">
+    <title>第十章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t389"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t391">
+    <title>RXDJS@第十一章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t390"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t392">
+    <title>第十一章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t391"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t393">
+    <title>RXDJS@第十二章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t392"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t394">
+    <title>第十二章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t393"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t395">
+    <title>RXDJS@第十三章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t394"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t396">
+    <title>第十三章@ RXDJS finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t395"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t398">
+    <title>GYFYH@第一章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-14T12:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-14T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t399">
+    <title>第一章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t398"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t400">
+    <title>GYFYH@第二章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t399"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t401">
+    <title>第二章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t400"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t402">
+    <title>GYFYH@第三章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-06T12:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t401"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t403">
+    <title>第三章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t402"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t404">
+    <title>GYFYH@第四章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t403"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t405">
+    <title>第四章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t404"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t406">
+    <title>GYFYH@第五章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t405"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t407">
+    <title>第五章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t406"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t408">
+    <title>GYFYH@第六章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t407"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t409">
+    <title>第六章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t408"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t410">
+    <title>GYFYH@第七章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t409"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t411">
+    <title>第七章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t410"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t412">
+    <title>GYFYH@第八章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t411"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t413">
+    <title>第八章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t412"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t414">
+    <title>GYFYH@第九章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t413"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t415">
+    <title>第九章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t414"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t416">
+    <title>GYFYH@第十章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t415"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t417">
+    <title>第十章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t416"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t418">
+    <title>GYFYH@第十一章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t417"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t419">
+    <title>第十一章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t418"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t420">
+    <title>GYFYH@第十二章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t419"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t421">
+    <title>第十二章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t420"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t422">
+    <title>GYFYH@第十三章</title>
+    <effort>28800</effort>
+    <min-estimate>14400</min-estimate>
+    <max-estimate>43200</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <static-cost>1</static-cost>
+    <prerequisite-task idref="t421"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t423">
+    <title>第十三章@ GYFYH finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t422"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t424">
+    <title>SYJ@第一章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-06T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t425">
+    <title>第一章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t424"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t426">
+    <title>SYJ@第二章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t425"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t427">
+    <title>第二章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t426"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t428">
+    <title>SYJ@第三章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-06T12:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t427"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t429">
+    <title>第三章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t428"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t430">
+    <title>SYJ@第四章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t429"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t431">
+    <title>第四章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t430"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t432">
+    <title>SYJ@第五章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t431"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t433">
+    <title>第五章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t432"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t434">
+    <title>SYJ@第六章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t433"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t435">
+    <title>第六章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t434"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t436">
+    <title>SYJ@第七章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t435"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t437">
+    <title>第七章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t436"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t438">
+    <title>SYJ@第八章</title>
+    <effort>1800</effort>
+    <min-estimate>900</min-estimate>
+    <max-estimate>2700</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t437"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t439">
+    <title>第八章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t438"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t440">
+    <title>SYJ@第九章</title>
+    <effort>3600</effort>
+    <min-estimate>1800</min-estimate>
+    <max-estimate>5400</max-estimate>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t439"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t441">
+    <title>第九章@ SYJ finish</title>
+    <type>milestone</type>
+    <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t440"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2019-01-01T23:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

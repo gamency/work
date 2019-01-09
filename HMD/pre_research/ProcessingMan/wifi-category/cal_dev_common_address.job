@@ -1,9 +1,0 @@
-type=spark
-spark-version=2-yarn
-execution-jar=5_cal_dev_common_address.py
-name=cal_dev_common_address
-conf.spark.sql.autoBroadcastJoinThreshold=-1
-conf.spark.ui.port=8290
-dependencies=cal_dev_wifi
-conf.spark.sql.adaptive.enabled=false
-conf.spark.shuffle.service.enabled=true

@@ -1,3 +1,0 @@
-[console_scripts]
-seqfeatuure = tsfeature:feature_core.sequence_feature
-
