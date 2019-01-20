@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<screens xmlns="http://thinkingrock.com.au/xsd/tr/view/actions/screens">
+    <screen name="Today">
+        <columns>
+            <column width="17" columnID="icon"/>
+            <column width="17" columnID="done"/>
+            <column width="176" columnID="descr"/>
+            <column width="177" columnID="delegated-to"/>
+            <column width="176" columnID="action-date"/>
+            <column width="177" columnID="context"/>
+            <column width="176" columnID="topic"/>
+            <column width="17" columnID="from-icon"/>
+            <column width="177" columnID="schedule-duration"/>
+            <column width="176" columnID="project-path"/>
+        </columns>
+        <sortColumns>
+            <sortColumn descending="false" columnID="action-date"/>
+        </sortColumns>
+        <filters show="true">
+            <filter excludeNulls="false" visible="false" filterID="done">
+                <value>2</value>
+            </filter>
+            <filter excludeNulls="false" visible="false" filterID="status">
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="context">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="topic">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="true" visible="false" filterID="action-from">
+                <value>0</value>
+                <value>true</value>
+                <value>1</value>
+            </filter>
+            <filter excludeNulls="true" visible="false" filterID="action-to">
+                <value>0</value>
+                <value>true</value>
+                <value>1</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="search">
+                <value></value>
+            </filter>
+        </filters>
+    </screen>
+    <screen name="This Week">
+        <columns>
+            <column width="17" columnID="icon"/>
+            <column width="17" columnID="done"/>
+            <column width="1" columnID="descr"/>
+            <column width="1" columnID="delegated-to"/>
+            <column width="1" columnID="action-date"/>
+            <column width="1" columnID="context"/>
+            <column width="1" columnID="topic"/>
+            <column width="17" columnID="from-icon"/>
+            <column width="1" columnID="schedule-duration"/>
+            <column width="1" columnID="project-path"/>
+        </columns>
+        <filters show="true">
+            <filter excludeNulls="false" visible="false" filterID="done">
+                <value>2</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="context">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="topic">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="true" visible="false" filterID="action-from">
+                <value>1</value>
+                <value>true</value>
+                <value>1</value>
+            </filter>
+            <filter excludeNulls="true" visible="false" filterID="action-to">
+                <value>7</value>
+                <value>true</value>
+                <value>1</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="search">
+                <value></value>
+            </filter>
+        </filters>
+    </screen>
+    <screen name="Do ASAP">
+        <columns>
+            <column width="17" columnID="icon"/>
+            <column width="17" columnID="done"/>
+            <column width="1" columnID="descr"/>
+            <column width="1" columnID="created-date"/>
+            <column width="1" columnID="context"/>
+            <column width="1" columnID="topic"/>
+            <column width="17" columnID="from-icon"/>
+            <column width="1" columnID="from-descr"/>
+            <column width="1" columnID="from-topic"/>
+            <column width="1" columnID="start-date"/>
+            <column width="1" columnID="due-date"/>
+        </columns>
+        <filters show="true">
+            <filter excludeNulls="false" visible="true" filterID="done">
+                <value>2</value>
+            </filter>
+            <filter excludeNulls="false" visible="false" filterID="status">
+                <value>3</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="context">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="topic">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="search">
+                <value></value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="due-from">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="due-to">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+        </filters>
+    </screen>
+    <screen name="Delegated">
+        <columns>
+            <column width="17" columnID="icon"/>
+            <column width="17" columnID="done"/>
+            <column width="1" columnID="descr"/>
+            <column width="1" columnID="delegated-to"/>
+            <column width="1" columnID="context"/>
+            <column width="1" columnID="topic"/>
+            <column width="17" columnID="from-icon"/>
+            <column width="1" columnID="from-descr"/>
+            <column width="1" columnID="from-topic"/>
+            <column width="1" columnID="start-date"/>
+            <column width="1" columnID="due-date"/>
+            <column width="1" columnID="followup-date"/>
+        </columns>
+        <filters show="true">
+            <filter excludeNulls="false" visible="true" filterID="done">
+                <value>2</value>
+            </filter>
+            <filter excludeNulls="false" visible="false" filterID="status">
+                <value>2</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="context">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="topic">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="search">
+                <value></value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="followup-from">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="followup-to">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+        </filters>
+    </screen>
+    <screen name="Scheduled">
+        <columns>
+            <column width="1" columnID="descr"/>
+        </columns>
+        <filters show="true">
+            <filter excludeNulls="false" visible="true" filterID="done">
+                <value>2</value>
+            </filter>
+            <filter excludeNulls="false" visible="false" filterID="status">
+                <value>5</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="context">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="topic">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="search">
+                <value></value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="schedule-from">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="schedule-to">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+        </filters>
+    </screen>
+    <screen name="Actions">
+        <columns>
+            <column width="1271" columnID="descr"/>
+        </columns>
+        <filters show="true">
+            <filter excludeNulls="false" visible="true" filterID="done">
+                <value>2</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="status">
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="context">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="topic">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="action-to">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="search">
+                <value></value>
+            </filter>
+        </filters>
+    </screen>
+    <screen name="Done">
+        <columns>
+            <column width="17" columnID="icon"/>
+            <column width="17" columnID="done"/>
+            <column width="1" columnID="descr"/>
+            <column width="1" columnID="delegated-to"/>
+            <column width="1" columnID="created-date"/>
+            <column width="1" columnID="done-date"/>
+            <column width="1" columnID="context"/>
+            <column width="1" columnID="topic"/>
+            <column width="17" columnID="from-icon"/>
+            <column width="1" columnID="from-descr"/>
+            <column width="1" columnID="from-topic"/>
+        </columns>
+        <filters show="true">
+            <filter excludeNulls="false" visible="false" filterID="done">
+                <value>1</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="context">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="topic">
+                <value>all</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="done-from">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="done-to">
+                <value>0</value>
+                <value>false</value>
+                <value>0</value>
+            </filter>
+            <filter excludeNulls="false" visible="true" filterID="search">
+                <value></value>
+            </filter>
+        </filters>
+    </screen>
+</screens>
