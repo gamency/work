@@ -1675,10 +1675,8 @@
   </task>
   <task id="t202">
     <title>HoMwsTF@CH9</title>
-    <effort>28800</effort>
-    <min-estimate>14400</min-estimate>
-    <max-estimate>43200</max-estimate>
-    <effort-done>28800</effort-done>
+    <effort>43200</effort>
+    <effort-done>43200</effort-done>
     <start-constraint-date>2019-01-14T01:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <assignment idref="r3"/>
@@ -1695,9 +1693,8 @@
   </task>
   <task id="t204">
     <title>HoMwsTF@CH10</title>
-    <effort>28800</effort>
-    <min-estimate>14400</min-estimate>
-    <max-estimate>43200</max-estimate>
+    <effort>72000</effort>
+    <effort-done>72000</effort-done>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t203"/>
@@ -1707,6 +1704,7 @@
   <task id="t205">
     <title>CH10@HoMwsTF finish</title>
     <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
     <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t204"/>
     <assignment idref="r3"/>
@@ -1714,9 +1712,7 @@
   </task>
   <task id="t206">
     <title>HoMwsTF@CH11</title>
-    <effort>28800</effort>
-    <min-estimate>14400</min-estimate>
-    <max-estimate>43200</max-estimate>
+    <effort>57600</effort>
     <start-constraint-date>2018-12-31T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t205"/>
@@ -2716,6 +2712,7 @@
     <effort>14400</effort>
     <min-estimate>7200</min-estimate>
     <max-estimate>21600</max-estimate>
+    <effort-done>1440</effort-done>
     <start-constraint-date>2019-01-01T23:00:00.000Z</start-constraint-date>
     <static-cost>1</static-cost>
     <prerequisite-task idref="t302"/>
