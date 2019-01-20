@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
+    <body background="{{ url_for('static', filename='cirrostratus-cloud.jpg')}}" width="12" height="12" />
+</head>
+<body>
+  <div class="container">
+      <div class="row">
+          <h3 >Predict Service - direct data</h3>
+      </div>
+      <div class="row" style="margin-top:20px">
+          <div class="col-md-12">
+              <meta charset="UTF-8">
+              <form role="form" action="" method="POST" enctype=multipart/form-data>
+                  <div class="form-group">
+                    <label for="Label">Label</label>
+                     <select class="form-control" name="Label">
+                        <option value="0">Bot</option>
+                        <option value="1">Human</option>
+                        </select>
+                    </div>
+                    <input type="hidden" name="SECRET_KEY" value="rmotr">
+                    <button type="submit" name='submit' class="btn btn-default" value="Form sent!">Submit</button>
+              </form>
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>
