@@ -1,0 +1,365 @@
+Task ID,Type,Name,Status,Project,Context,Start Date,Due Date,Completion Date,Duration,Flagged,Notes
+1,Project,OmniFocus 入门,active,,,,,,,0,
+1.1,Action,欢迎使用 OmniFocus 2！如果这是您第一次使用该应用程序，请查看我们汇集的资源，帮助您入门。或者，直接进入程序，开始探索。,,OmniFocus 入门,,,,,,0,
+1.2,Action,点按此项标题旁边的附注图标，查看项的更多相关信息。附注中还有关于其他教学课程项的有用信息！,,OmniFocus 入门,,,,,,0,您可以使用 “显示”菜单中的“显示/隐藏所有附注” 来显示和隐藏所有附注。
+1.3,Action,开始添加任务和待办事项,,OmniFocus 入门,,,,,,0,
+1.3.1,Action,点按工具栏中的“新建动作”可为此项目添加动作。,,OmniFocus 入门,,,,,,0,还可以按“返回”添加新动作，或从“文件”菜单 中选择 “新建动作”。
+1.3.2,Action,从“文件”菜单选择“新建项目”以创建新的项目。,,OmniFocus 入门,,,,,,0,也可以使用底部工具栏中的加号按钮，或选择工具条中的现有项目，然后按“返回”。
+1.3.3,Action,点按右侧的项状态圈，可将该项标记为“已完成”。,,OmniFocus 入门,,,,,,0,或者，选中项并按删除键，可将该项从 OmniFocus 完全删除。
+1.3.4,Action,使用状态圈旁边的橙色楔形图标标记重要项。,,OmniFocus 入门,,,,,,0,也可使用检查器或 “编辑”菜单中的“设置标记” 命令来设置标记。
+1.3.5,Action,使用右侧的检查器编辑详细动作。,,OmniFocus 入门,,,,,,0,如果检查器不可见，请点按 工具栏中的“检查器” 或从“显示”菜单选择 “显示检查器” 以显示出检查器。
+1.4,Action,了解有关 OmniFocus 的更多信息,,OmniFocus 入门,,,,,,0,
+1.4.1,Action,请首先查看应用程序内的帮助，了解 OmniFocus 如何帮助您的组织并完成您的目标。,,OmniFocus 入门,,,,,,0,还可从 iBookstore 免费下载帮助的电子书版本，用户可在其中精确搜索所需要的帮助。
+1.4.2,Action,请访问 OmniFocus 官方网站，观看简介视频，查看支持文章以及其他海量资源。,,OmniFocus 入门,,,,,,0,"OmniFocus 视频 <www.omnigroup.com/video/omnifocus/>
+
+OmniFocus 支持 <http://support.omnigroup.com/omnifocus>"
+1.4.3,Action,查看“深入了解 OmniFocus”— 该知识库分享某些十分聪明的用户如何使用 OmniFocus 创造杰出作品。,,OmniFocus 入门,,,,,,0,http://inside.omnifocus.com
+1.4.4,Action,最后一个要点，请访问 OmniFocus 论坛与其他用户分享您的真知灼见。,,OmniFocus 入门,,,,,,0,OmniFocus 论坛 <www.omnigroup.com/forward/omnifocusforums>
+2,Project,☘ DAT256X,active,,,,,,,0,
+2.1,Action,☘xxxx,,☘ DAT256X,,,,,,0,
+3,Project,☘ cogntive spark I,active,,,,,,,0,
+4,Project,data structure & algorithm in c++,active,,,,,,,0,
+4.1,Action,chp 2 finish,,data structure & algorithm in c++,,,2018-11-20 12:00:00 +0000,2018-11-20 09:25:06 +0000,,0,
+4.2,Action,CHP 3 finish,,data structure & algorithm in c++,,,2018-11-21 12:00:00 +0000,2018-11-21 12:14:13 +0000,,0,
+4.3,Action,CH4 finish,,data structure & algorithm in c++,,,,,,0,
+5,Project,商业模式调研@行业现状调研@业务层面,active,,,,,,,0,
+5.1,Action,1、行业AI发展的历史及关键里程点，梳理输出到资料文库,,商业模式调研@行业现状调研@业务层面,,,,,,0,
+6,Project,商业模式调研@行业现状调研@业务层面,active,,,,,,,0,
+6.1,Action,1、行业AI发展的历史及关键里程点，梳理输出到资料文库,,商业模式调研@行业现状调研@业务层面,,,2018-11-20 12:00:00 +0000,2018-11-20 11:41:34 +0000,,0,
+7,Project,商业模式调研@行业现状调研@业务层面,active,,,,,,,0,
+7.1,Action,1、Financial Tech行业AI发展的历史及关键里程点，梳理输出到资料文库,,商业模式调研@行业现状调研@业务层面,,,2018-11-21 09:00:00 +0000,2018-11-21 10:14:22 +0000,,0,
+8,Project,Investigate&Architecture,active,,,,,,,0,
+9,Project,Resource prepare,active,,,,,,,0,
+10,Project,Launch,active,,,,,,,0,
+10.1,Action,Captch project,,Launch,,,,,,0,"study & develop human biometric detection model service 
+a flexiable and high accuracy service system that serve captcha"
+10.1.1,Action,☘☯线下瞬态分析及可视化服务,,Launch,Mac,,,,,0,"1、完成线下短暂分析和可视化服务,使得具有瞬态分析的工具
+2、可以扩展到线上，具有易用性，可视化的部分能够监控模型的性能，使得能够明晰模型的运行状况并可从中发现明显的异常点"
+10.1.1.1,Action,☮完成线下数据转换格式化功能的开发,,Launch,,,2018-03-20 09:00:00 +0000,2018-03-21 02:01:41 +0000,,0,Success: 线下短快分析功能能够对输入数据进行格式转换
+10.1.1.2,Action,☸完成线下可视化功能的开发,,Launch,,,2018-03-20 09:00:00 +0000,2018-03-21 02:01:44 +0000,,0,Success: 完成线下可视化功能的开发
+10.1.1.3,Action,完成web服务的开发,,Launch,,,,,,0,以web服务的方式提供数据的输入，展现数据的轨迹输出，及当前模型预测的概率结果，增加人工评判部分，并能存储为相对应的文件
+10.1.1.3.1,Action,☮ 选取web服务的框架，确定一期web服务的内容和形式,,Launch,,,,,,0,
+10.1.1.3.2,Action,☸ 完成web服务的开发,,Launch,,,,,,0,
+10.1.2,Action,鼠标键盘行为算法迭代优化5,,Launch,,,,,,0,
+10.1.2.1,Action,o 方案设计,,Launch,,,,,,0,
+10.1.2.2,Action,o 数据提取功能开发,,Launch,,,,,,0,
+10.1.2.3,Action,o 数据训练功能开发,,Launch,,,,,,0,
+10.1.2.4,Action,o 模型更新,,Launch,,,,,,0,
+10.1.2.5,Action,o 和上层业务进行对接联调,,Launch,,,,,,0,
+10.1.3,Action,鼠标键盘行为算法迭代优化4,,Launch,,,,,,0,
+10.1.3.1,Action,o lstm，cnn模型方案设计,,Launch,,,,,,0,
+10.1.3.2,Action,o lstm，cnn model develop,,Launch,,,,,,0,
+10.1.3.3,Action,o 作为备选模型落线下监控集中,,Launch,,,,,,0,
+10.1.3.4,Action,o 和离线训练模块进行对接联调,,Launch,,,,,,0,"Success: 
+确认模型能正常接入
+数据流能走通，模型能给出结果并落表"
+11,Project,Online learning system project,active,,,,,,,0,
+11.1,Action,☘☯离线分布式分析平台使用及需求提取,,Online learning system project,,,,,,0,
+11.1.1,Action,☘以验证码项目中的数据为基础数据，进行线下数据的提取,,Online learning system project,,,,,,0,除了完成以外，还需评估时间效果和维护变更的效果
+11.1.2,Action,☘ ****,,Online learning system project,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+11.2,Action,☘☯在离线算法服务平台开发,,Online learning system project,,,,,,0,
+11.2.1,Action,☘ 价值评估与资源需求,,Online learning system project,,,,,,0,ROI，可行性，难点分析，输出评估结果以及资源需求列表（训练数据来源，人力需求），以及效果评估
+11.2.2,Action,☘ 价值澄清,,Online learning system project,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+11.2.3,Action,☘☯完成在离线算法服务平台的需求分析分解和方案架构设计,,Online learning system project,,,,,,0,确定选用的方案和涉及的组件， 包含可行性，可用性评估，确保使用的平台方案能满足线上业务需求
+11.2.3.1,Action,☘需求调研形成需求列表,,Online learning system project,,,,,,0,
+11.2.3.2,Action,☘ 现有方案调研和结论,,Online learning system project,,,,,,0,
+11.2.3.3,Action,☘ 需求分析和分解，方案设计与确定，输出方案说明书,,Online learning system project,,,,,,0,
+11.2.3.4,Action,☘ 架构设计，概要设计文档输出,,Online learning system project,,,,,,0,
+11.2.4,Action,☘☯完成实时数据处理系统的部署开发,,Online learning system project,,,,,,0,确定选用的方案和涉及的组件， 包含可行性，可用性评估，确保使用的平台方案能满足线上业务需求
+11.2.4.1,Action,☘获取组件，完成demo部署和最小化开发,,Online learning system project,,,,,,0,
+11.2.4.2,Action,☘ 获取线上虚拟机环境，配置基础环境,,Online learning system project,,,,,,0,
+11.2.4.3,Action,☘ 在线上虚拟机上部署主服务,,Online learning system project,,,,,,0,
+11.2.4.4,Action,☘ 对接业务进行联调（带上算法服务）,,Online learning system project,,,,,,0,
+11.2.4.5,Action,☘ 带算法服务进行压测,,Online learning system project,,,,,,0,
+11.2.5,Action,☘☯完成预测系统的开发,,Online learning system project,,,,,,0,确定选用的方案和涉及的组件， 包含可行性，可用性评估，确保使用的平台方案能满足线上业务需求
+11.2.5.1,Action,☘完成预测服务的代码开发和封装及性能和压力测试,,Online learning system project,,,,,,0,
+11.2.5.2,Action,☘ 与线上服务平台对接进行联调性能和压力测试,,Online learning system project,,,,,,0,
+11.2.6,Action,☘☯完成在线学习系统的开发,,Online learning system project,,,,,,0,确定选用的方案和涉及的组件， 包含可行性，可用性评估，确保使用的平台方案能满足线上业务需求
+11.2.6.1,Action,☘完成在线训练服务的代码开发和封装,,Online learning system project,,,,,,0,
+11.2.6.2,Action,☘ 与线上服务平台对接进行联调,,Online learning system project,,,,,,0,
+11.2.6.3,Action,☘ 需求分析和分解，方案设计与确定，输出方案说明书,,Online learning system project,,,,,,0,
+11.2.6.4,Action,☘ 架构设计，概要设计文档输出,,Online learning system project,,,,,,0,
+11.2.7,Action,☘☯完成运行监控系统的开发,,Online learning system project,,,,,,0,确定选用的方案和涉及的组件， 包含可行性，可用性评估，确保使用的平台方案能满足线上业务需求
+11.2.7.1,Action,☘完成模型运行监控系统服务的代码开发和封装,,Online learning system project,,,,,,0,
+11.2.7.2,Action,☘ 对外提供web服务，进入到运营监控,,Online learning system project,,,,,,0,
+12,Project,Fly dutchman,active,,,,,,,0,
+13,Project,On air,active,,,,,,,0,
+14,Project,数据梳理到对应库／文件夹,active,,,,,,,0,
+14.1,Action,11.20梳理完当前数据，完成数据的治理,,数据梳理到对应库／文件夹,,,2018-11-20 09:00:00 +0000,2018-11-20 10:21:20 +0000,,0,
+14.2,Action,1、完成全流程框架图的输出及对应功能的输出,,数据梳理到对应库／文件夹,,,,,,0,
+15,Project,ARE system,active,,,,,,,0,
+15.1,Action,☘☯需求澄清与方案设计,,ARE system,,,,,,0,
+15.1.1,Action,☘ 明确产品的战略思路和设计，输出业务战略思路图,,ARE system,,,,2018-04-02 07:33:18 +0000,,0,明确战略的设计构成，每个分部的功能和重点，对应下来当前业务要解决的问题，应用的场景和希望达成的目标
+15.1.2,Action,☘ 价值评估与资源需求，输出资源需求列表,,ARE system,,,,,,0,ROI，可行性，难点分析，输出评估结果以及资源需求列表（训练数据来源，人力需求），以及效果评估
+15.1.3,Action,☘ 价值澄清，输出价值评估列表,,ARE system,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+15.1.4,Action,☘ 架构设计,,ARE system,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+15.1.4.1,Action,☘ 平台与数据链路设计@架构设计，输出链路图表,,ARE system,,,,,,0,总体系统方案设计，输出为满足需求而设计的流程和平台，模型建模方式的总体方案，确定数据链路及所依赖平台
+15.1.4.2,Action,☘ 分功能的架构设计@架构设计，输出架构图，包含功能列表，功能之间关系，数据流图,,ARE system,,,,,,0,设计训练数据采集方式，训练模型方式，模型更新方式，数据存储方式以及风险应对机制
+15.2,Action,☘ 制定输出计划表,,ARE system,,,2018-04-01 09:00:00 +0000,2018-04-02 13:17:49 +0000,,0,详细开发计划，具体到每个小功能的安排
+15.3,Action,☘☯现有技术调研与算法风险规避,,ARE system,,,,,,0,
+15.3.1,Action,☘技术调研,,ARE system,,,,,,0,
+15.3.1.1,Action,☘ 现有技术方案材料收集,,ARE system,,,,,,0,
+15.3.1.2,Action,☘ 现有技术方案材料分析，信息提取,,ARE system,,,,,,0,
+15.3.1.3,Action,☘ 现有破解方法调研,,ARE system,,,,,,0,
+15.3.1.4,Action,☘ 特征设计与调整,,ARE system,,,,,,0,
+15.3.2,Action,☘ 模型方案设计,,ARE system,,,,,,0,
+15.3.2.1,Action,☘ 完成传感器模型的方案设计,,ARE system,,,,,,0,
+15.3.2.2,Action,☘ 完成行为序列的方案设计,,ARE system,,,,,,0,
+15.3.3,Action,☘ Andriod，IOS 端的demo数据采集格式输出（行为数据）,,ARE system,,,,,,0,
+15.4,Action,☘☯建模数据采集,,ARE system,,,2018-04-02 09:00:00 +0000,2018-04-02 13:19:36 +0000,,0,
+15.4.1,Action,☘ Andriod端数据采集(行为数据&传感器数据),,ARE system,,,,2018-04-02 13:19:12 +0000,,0,
+15.4.2,Action,☘ IOS端数据采集(行为数据&传感器数据),,ARE system,,,,2018-04-02 13:19:12 +0000,,0,
+15.4.3,Action,☘ H5端数据采集(行为数据&传感器数据),,ARE system,,,,2018-04-02 13:19:13 +0000,,0,
+15.5,Action,☘☯人机识别—用户行为识别之人机识别@广告反作弊 特征工程库开发,,ARE system,,,,,,0,
+15.5.1,Action,☘技术调研,,ARE system,,,,,,0,
+15.5.1.1,Action,☘ 现有技术方案材料收集,,ARE system,,,,,,0,
+15.5.1.2,Action,☘ 现有技术方案材料分析，信息提取,,ARE system,,,,,,0,
+15.5.1.3,Action,☘ 现有破解方法调研,,ARE system,,,,,,0,
+15.5.1.4,Action,☘ 特征设计与调整,,ARE system,,,,,,0,
+15.5.2,Action,☘ 模型方案设计,,ARE system,,,,,,0,
+15.5.2.1,Action,☘ 完成传感器模型的方案设计,,ARE system,,,,,,0,
+15.5.2.2,Action,☘ 完成行为序列的方案设计,,ARE system,,,,,,0,
+15.5.3,Action,☘ Andriod，IOS 端的demo数据采集格式输出（行为数据）,,ARE system,,,,,,0,
+15.6,Action,☘☯人机识别—用户行为识别之人机识别@广告反作弊算法模型库开发（使用机器学习，深度学习算法）,,ARE system,,,,,,0,
+15.6.1,Action,☘技术调研,,ARE system,,,,,,0,
+15.6.1.1,Action,☘ 现有技术方案材料收集,,ARE system,,,,,,0,
+15.6.1.2,Action,☘ 现有技术方案材料分析，信息提取,,ARE system,,,,,,0,
+15.6.1.3,Action,☘ 现有破解方法调研,,ARE system,,,,,,0,
+15.6.1.4,Action,☘ 特征设计与调整,,ARE system,,,,,,0,
+15.6.2,Action,☘ 模型方案设计,,ARE system,,,,,,0,
+15.6.2.1,Action,☘ 完成传感器模型的方案设计,,ARE system,,,,,,0,
+15.6.2.2,Action,☘ 完成行为序列的方案设计,,ARE system,,,,,,0,
+15.6.3,Action,☘ Andriod，IOS 端的demo数据采集格式输出（行为数据）,,ARE system,,,,,,0,
+15.7,Action,☘☯模型上线部署,,ARE system,,,,,,0,
+15.7.1,Action,☘技术调研,,ARE system,,,,,,0,
+15.7.1.1,Action,☘ 现有技术方案材料收集,,ARE system,,,,,,0,
+15.7.1.2,Action,☘ 现有技术方案材料分析，信息提取,,ARE system,,,,,,0,
+15.7.1.3,Action,☘ 现有破解方法调研,,ARE system,,,,,,0,
+15.7.1.4,Action,☘ 特征设计与调整,,ARE system,,,,,,0,
+15.7.2,Action,☘ 模型方案设计,,ARE system,,,,,,0,
+15.7.2.1,Action,☘ 完成传感器模型的方案设计,,ARE system,,,,,,0,
+15.7.2.2,Action,☘ 完成行为序列的方案设计,,ARE system,,,,,,0,
+15.7.3,Action,☘ Andriod，IOS 端的demo数据采集格式输出（行为数据）,,ARE system,,,,,,0,
+15.8,Action,☘☯线下模型库开发,,ARE system,,,,,,0,
+15.8.1,Action,☘技术调研,,ARE system,,,,,,0,
+15.8.1.1,Action,☘ 现有技术方案材料收集,,ARE system,,,,,,0,
+15.8.1.2,Action,☘ 现有技术方案材料分析，信息提取,,ARE system,,,,,,0,
+15.8.1.3,Action,☘ 现有破解方法调研,,ARE system,,,,,,0,
+15.8.1.4,Action,☘ 特征设计与调整,,ARE system,,,,,,0,
+15.8.2,Action,☘ 模型方案设计,,ARE system,,,,,,0,
+15.8.2.1,Action,☘ 完成传感器模型的方案设计,,ARE system,,,,,,0,
+15.8.2.2,Action,☘ 完成行为序列的方案设计,,ARE system,,,,,,0,
+15.8.3,Action,☘ Andriod，IOS 端的demo数据采集格式输出（行为数据）,,ARE system,,,,,,0,
+16,Project,Investigate&Architecture,active,,,,,,,0,
+17,Project,Resource prepare,active,,,,,,,0,
+18,Project,Launch,active,,,,,,,0,
+19,Project,Fly dutchman,active,,,,,,,0,
+20,Project,On air,active,,,,,,,0,
+21,Project,Investigate&Architecture,active,,,,,,,0,
+22,Project,Resource prepare,active,,,,,,,0,
+23,Project,Launch,active,,,,,,,0,
+24,Project,Fly dutchman,active,,,,,,,0,
+25,Project,On air,active,,,,,,,0,
+26,Project,User behavior detection Advertisement anti fraud scenario project,active,,,,,,,0,
+26.1,Action,☘☯需求澄清与方案设计,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.1.1,Action,☘需求澄清,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,比对需求澄清列表，澄清清楚所有问题，输出原始需求列表
+26.1.2,Action,☘ 价值评估与资源需求,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,ROI，可行性，难点分析，输出评估结果以及资源需求列表（训练数据来源，人力需求），以及效果评估
+26.1.3,Action,☘ 价值澄清,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+26.1.4,Action,☘ 架构设计,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+26.1.4.1,Action,☘ 平台与数据链路设计@架构设计,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,总体系统方案设计，输出为满足需求而设计的流程和平台，模型建模方式的总体方案，确定数据链路及所依赖平台
+26.1.4.2,Action,☘ 数据训练与模型更新@架构设计,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,设计训练数据采集方式，训练模型方式，模型更新方式，数据存储方式以及风险应对机制
+26.1.5,Action,☘☯H5， IOS， Andriod 端的demo数据采集格式输出,,User behavior detection Advertisement anti fraud scenario project,,,2018-03-24 09:00:00 +0000,2018-03-26 04:31:30 +0000,,0,
+26.1.5.1,Action,☘H5，端的demo数据采集格式输出,,User behavior detection Advertisement anti fraud scenario project,,,2018-03-22 02:00:00 +0000,2018-03-22 10:02:34 +0000,,0,
+26.1.5.2,Action,☘ Andriod，IOS 端的demo数据采集格式输出（传感器数据）,,User behavior detection Advertisement anti fraud scenario project,,,2018-03-22 10:00:00 +0000,2018-03-22 10:02:49 +0000,,0,
+26.1.5.3,Action,☘ Andriod，IOS 端的demo数据采集格式输出（行为数据）,,User behavior detection Advertisement anti fraud scenario project,,,2018-03-26 09:00:00 +0000,2018-03-26 04:14:30 +0000,,0,
+26.2,Action,☘☯现有技术调研与算法风险规避,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.1,Action,☘技术调研,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.1.1,Action,☘ 现有技术方案材料收集,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.1.2,Action,☘ 现有技术方案材料分析，信息提取,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.1.3,Action,☘ 现有破解方法调研,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.1.4,Action,☘ 特征设计与调整,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.2,Action,☘ 模型方案设计,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.2.1,Action,☘ 完成传感器模型的方案设计,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.2.2,Action,☘ 完成行为序列的方案设计,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.2.3,Action,☘ Andriod，IOS 端的demo数据采集格式输出（行为数据）,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.3,Action,☘☯建模数据采集,,User behavior detection Advertisement anti fraud scenario project,,,2018-04-02 09:00:00 +0000,2018-04-02 13:18:34 +0000,,0,start: 3.26
+26.3.1,Action,☘ Andriod端数据采集(行为数据&传感器数据),,User behavior detection Advertisement anti fraud scenario project,,,2018-04-02 02:00:00 +0000,2018-04-02 07:33:12 +0000,,0,start: 3.26
+26.3.2,Action,☘ IOS端数据采集(行为数据&传感器数据),,User behavior detection Advertisement anti fraud scenario project,,,2018-04-02 02:00:00 +0000,2018-04-02 07:33:13 +0000,,0,start: 3.26
+26.3.3,Action,☘ H5端数据采集(行为数据),,User behavior detection Advertisement anti fraud scenario project,,,2018-04-02 02:00:00 +0000,2018-04-02 07:33:14 +0000,,0,start: 3.26
+26.4,Action,☘☯人机识别—用户行为识别之人机识别@广告反作弊 特征工程库开发,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.4.1,Action,☘完成特征库架构设计，并形成设计文档,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.4.2,Action,☘ 确定特征大类和详细的特征子类，明确特征的计算方式,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.4.3,Action,☘ 完成特征类的设计开发，确定第一版用户行为特征的特征大类和详细的细类，形成特征类表,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.4.4,Action,☘ 完成特征类下对应特征计算的代码开发和封装,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.4.5,Action,☘ 完成模块的调试,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.5,Action,☘☯人机识别—用户行为识别之人机识别@广告反作弊算法模型库开发（使用机器学习，深度学习算法）,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.5.1,Action,☘完成与特征库的调用对接，,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.5.2,Action,☘完成传感器数据的预测模块的开发,,User behavior detection Advertisement anti fraud scenario project,,,2018-03-31 09:00:00 +0000,2018-04-02 13:17:44 +0000,,0,start： 3.26
+26.5.3,Action,☘ 完成模型训练算法，包含传统机器学习和深度学习的调用开发,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.5.4,Action,☘ 完成过程可视化包的开发,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.5.5,Action,☘ 完成训练结果报告模块的开发,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.5.6,Action,☘ 完成预测调用的程序开发,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.5.7,Action,☘ 完成模块的调试,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.6,Action,☘☯模型上线部署,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+26.6.1,Action,☘ 训练完的模型部署到模型平台，通过压测,,User behavior detection Advertisement anti fraud scenario project,,2018-04-02 13:00:00 +0000,2018-04-04 09:00:00 +0000,2018-04-10 10:45:10 +0000,,0,start: 4.02
+26.6.2,Action,☘与前端业务流程联通联调,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,start: 4.09
+26.7,Action,☘☯线下模型库开发,,User behavior detection Advertisement anti fraud scenario project,,,,,,0,
+27,Project,User Behavior Detection Research,active,,,,,,,0,
+27.1,Action,☘☯ 技术方向跟踪及研究,,User Behavior Detection Research,,,,,,0,
+27.1.1,Action,☘ 确认需跟踪的技术方向,,User Behavior Detection Research,,,,,,0,
+27.1.2,Action,☘ 建立技术方向资料库,,User Behavior Detection Research,,,,,,0,
+27.1.3,Action,☘ 开始进行资料库的补充,,User Behavior Detection Research,,,,,,0,
+27.2,Action,☘☯Tmp UBD,,User Behavior Detection Research,,,2018-04-12 09:00:00 +0000,2018-04-13 11:51:09 +0000,,0,
+27.2.1,Action,☘make predicting function skeleton,,User Behavior Detection Research,,,2018-03-27 12:00:00 +0000,2018-03-27 06:31:16 +0000,,0,
+27.2.2,Action,☘ Data preprocessing component develop finish,,User Behavior Detection Research,,,2018-03-29 10:00:00 +0000,2018-03-29 09:24:47 +0000,,0,
+27.2.3,Action,☘ featurelization component develop finish,,User Behavior Detection Research,,,2018-03-29 13:00:00 +0000,2018-03-30 01:44:28 +0000,,0,
+27.2.4,Action,☘ prediction component develop finish,,User Behavior Detection Research,,,2018-03-30 09:00:00 +0000,2018-03-30 09:29:19 +0000,,0,
+27.2.5,Action,☘ all component develop finish,,User Behavior Detection Research,,,2018-03-31 09:00:00 +0000,2018-03-30 09:30:01 +0000,,0,
+27.2.6,Action,☘  training model， saveing model,,User Behavior Detection Research,,,2018-03-31 09:00:00 +0000,2018-04-02 12:53:25 +0000,,0,
+27.2.7,Action,☘ union test pass， package all finish,,User Behavior Detection Research,,,2018-04-01 09:00:00 +0000,2018-04-02 12:53:32 +0000,,0,
+27.2.8,Action,☘ deploy to platform ， pass test,,User Behavior Detection Research,,,2018-04-03 09:00:00 +0000,2018-04-03 01:55:11 +0000,,0,
+27.2.9,Action,☘ pass interface test with business layer,,User Behavior Detection Research,,,2018-04-12 09:00:00 +0000,2018-04-13 11:50:39 +0000,,0,
+27.2.10,Action,☘ H5 behavior model,,User Behavior Detection Research,,,2018-04-04 09:00:00 +0000,2018-04-08 08:11:37 +0000,,0,
+27.2.11,Action,☘ H5 model deploy to platform ， pass test,,User Behavior Detection Research,,,2018-04-04 09:00:00 +0000,2018-04-08 10:23:00 +0000,,0,
+28,Project,☘Captch schedule work out,done,,,,2018-03-31 12:00:00 +0000,2018-04-02 07:33:32 +0000,,0,
+28.1,Action,☘ Captcha month， week， day schedule work out,,☘Captch schedule work out,,,2018-03-31 12:00:00 +0000,2018-04-02 07:33:31 +0000,,0,
+29,Project,☘ARE schedule work out,done,,,,2018-03-31 12:00:00 +0000,2018-04-02 07:33:37 +0000,,0,
+29.1,Action,☘ ARE vision work out,,☘ARE schedule work out,,,2018-03-27 12:00:00 +0000,2018-03-27 10:38:31 +0000,,0,
+29.2,Action,☘ ARE month， week， day schedule work out,,☘ARE schedule work out,,,2018-03-31 09:00:00 +0000,2018-04-02 07:33:24 +0000,,0,
+30,Project,☘UBD schedule work out,active,,,,,,,0,
+30.1,Action,☘ UBD vision work out,,☘UBD schedule work out,,,2018-03-29 09:00:00 +0000,2018-03-31 07:23:50 +0000,,0,
+30.2,Action,☘ UBD month， week， day schedule work out,,☘UBD schedule work out,,,,,,0,
+31,Project,AIOPS 资料分析与梳理,active,,,,,,,0,
+31.1,Action,对已经收集的资料进行分析梳理，输出分析结果,,AIOPS 资料分析与梳理,,,,,,0,
+32,Project,资料分析与梳理,active,,,,,,,0,
+32.1,Action,针对机器学习部分的automl进行分析，11.20重点分析automl.org,,资料分析与梳理,,,,,,0,
+33,Project,Body building,active,,,,,,,0,
+33.1,Action,☘☯健身计划,,Body building,,,,,,0,保证身体颈椎不酸痛，关节无状况
+33.1.1,Action,☘ ☸每天练八段锦，动作熟练,,Body building,,,,,,0,
+33.1.1.1,Action,☘ 寻找动作教学视频，并保存到手机,,Body building,,,2018-03-27 13:00:00 +0000,2018-03-27 06:31:37 +0000,60m,0,
+33.1.1.2,Action,☘ 0323锻炼打卡,,Body building,,,,,30m,0,设计训练数据采集方式，训练模型方式，模型更新方式，数据存储方式以及风险应对机制
+33.1.2,Action,☘☯为避免脂肪的堆积，体型的走样，每周3天练15分钟hit，争取体重控制在55kg以内,,Body building,,,,,,0,
+33.1.2.1,Action,☘  寻找动作教学视频，并保存到手机,,Body building,,,,,60m,0,
+33.1.2.2,Action,☘ 0323锻炼打卡,,Body building,,,,,,0,
+33.1.2.3,Action,☘ 0323锻炼打卡,,Body building,,,,,,0,
+33.1.3,Action,☘☯为避免长时间办公带来的对身体伤害每天做办公室操,,Body building,,,,,,0,
+33.1.3.1,Action,☘ 寻找动作教学视频，并保存到手机,,Body building,,,,,30m,0,
+33.1.3.2,Action,☘ 0323锻炼打卡,,Body building,,,,,,0,
+33.2,Action,☘☯生活方式与习惯,,Body building,,,,,,0,
+33.2.1,Action,☘作息时间控制,,Body building,,,,,,0,"晚上11:20上床睡觉，早上6:30起床,中午躺着休息至少30分钟"
+33.2.1.1,Action,☘0323 早,,Body building,,,,2018-03-23 07:19:08 +0000,,0,7:30
+33.2.1.2,Action,☘ 0323 中,,Body building,,,,2018-03-23 07:19:27 +0000,,0,13:30 — 13:50
+33.2.2,Action,☘ 饮食规律,,Body building,,,,,,0,"1、每天早起先喝一杯水
+2、每天的早饭要吃
+3、每天晚饭的饭量保持6分饱即可
+4、每周周末两天的中晚餐自己煮"
+33.2.2.1,Action,☘ 每天早起先喝一杯水,,Body building,,,,,,0,
+33.2.2.2,Action,☘ 每天的早饭要吃,,Body building,,,,,,0,
+33.2.2.3,Action,☘ 每天晚饭的饭量保持6分饱即可,,Body building,,,,,,0,
+33.2.2.4,Action,☘ 每周六的中晚餐自己煮,,Body building,,,,,,0,
+33.2.2.5,Action,☘ 每周日的中晚餐自己煮,,Body building,,,,,,0,
+33.2.3,Action,☘ 坐与行习惯,,Body building,,,,,,0,
+33.3,Action,☘☯养生,,Body building,,,,,,0,
+33.3.1,Action,☘穴位按摩与身体调理,,Body building,,,,,,0,
+33.3.1.1,Action,☘☯ 寻找动作教学视频，并保存到手机,,Body building,,,,,,0,
+33.3.1.2,Action,☘☯ 制定穴位按摩计划,,Body building,,,,,,0,
+33.3.1.3,Action,☘☯ 每天进行穴位按摩,,Body building,,,,,,0,
+33.3.2,Action,☘ 食材,,Body building,,,,,,0,
+33.3.2.1,Action,☘ 寻找合理的食材安排知识，形成方法库,,Body building,,,,,,0,
+33.3.2.2,Action,☘ 购买食材并按计划进行食用,,Body building,,,,,,0,
+33.3.3,Action,☘ 卫生习惯,,Body building,,,,,,0,
+33.3.3.1,Action,☘ 每周洗头3次,,Body building,,,,,,0,
+33.3.3.2,Action,☘ 每天早晚各刷牙一次,,Body building,,,,,,0,
+33.3.3.3,Action,☘ 每天早上冷水洗鼻子,,Body building,,,,,,0,
+34,Project,Reading,active,,,,,,,0,
+34.1,Action,☘☯《白话史记》阅读,,Reading,,2018-12-31 16:00:00 +0000,2019-02-10 09:00:00 +0000,,,0,
+34.1.1,Action,☘第一段阅读与过程记录心得输出,,Reading,,,,,,0,
+34.1.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Reading,,,,,,0,start 4.02
+34.1.1.2,Action,☘ 吴太伯世家31 ～ 晋世家39 夏本纪2 ～ 项羽本纪7,,Reading,,,,,,0,
+34.1.1.3,Action,☘ 楚世家40 荆燕世家51,,Reading,,,,,,0,
+34.1.1.4,Action,☘ 伯夷列传61 ～ 商君列传68 外戚世家49 ～ 齐悼惠王世家52,,Reading,,,,,,0,
+34.1.1.5,Action,☘ 苏秦列传 69 鲁仲连邹阳列传83,,Reading,,,,,,0,
+34.1.1.6,Action,☘ 屈原贾生列传84 张耳陈馀列传89,,Reading,,,,,,0,
+34.1.2,Action,☘ 第二段阅读与过程记录心得输出,,Reading,,,2019-01-20 10:00:00 +0000,,,0,
+34.1.2.1,Action,☘ 高祖本纪8 ～ 孝武本纪12,,Reading,,,,,,0,
+34.1.2.2,Action,☘ 魏豹彭越列传 90 ～ 韩信卢绾列传93 萧相国世家53 ～ 三王世家60,,Reading,,,,,,0,
+34.1.2.3,Action,☘ 田儋列传 94 韩长孺列传 108,,Reading,,,,,,0,
+34.1.2.4,Action,☘ 李将军列传 109 汲郑列传120,,Reading,,,,,,0,
+34.1.2.5,Action,☘ 儒林列传 121 货殖列传 129,,Reading,,,,,,0,
+34.1.3,Action,☘ 第三段阅读与过程记录心得输出,,Reading,,,2019-02-10 10:00:00 +0000,,,0,
+34.1.3.1,Action,☘ 礼书，乐书 ,,Reading,,,2019-01-27 02:00:00 +0000,,,0,
+34.1.3.2,Action,☘ 律书，历书，天官书,,Reading,,,2019-02-01 02:00:00 +0000,,,0,
+34.1.3.3,Action,☘ 封禅书，河渠书，平淮书,,Reading,,,,,,0,
+35,Project,Learning,active,,,,,,,0,
+35.1,Action,☘☯ Math,,Learning,,,,,,0,
+35.1.1,Action,☘微积分,,Learning,,,,,,0,
+35.1.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Learning,,,,,,0,
+35.1.1.2,Action,☘ 吴太伯世家31 ～ 晋世家39 夏本纪2 ～ 项羽本纪7,,Learning,,,,,,0,
+35.1.2,Action,☘ 线性代数,,Learning,,,,,,0,
+35.1.2.1,Action,☘ 高祖本纪8 ～ 孝武本纪12,,Learning,,,,,,0,
+35.1.3,Action,☘ 凸优化,,Learning,,,,,,0,
+35.1.3.1,Action,☘ 礼书，乐书 ,,Learning,,,,,,0,
+35.1.3.2,Action,☘ 律书，历书，天官书,,Learning,,,,,,0,
+35.1.3.3,Action,☘ 封禅书，河渠书，平淮书,,Learning,,,,,,0,
+35.2,Action,☘☯ Management,,Learning,,,,,,0,
+35.2.1,Action,☘项目管理,,Learning,,,,,,0,
+35.2.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Learning,,,,,,0,
+35.2.1.2,Action,☘ 吴太伯世家31 ～ 晋世家39 夏本纪2 ～ 项羽本纪7,,Learning,,,,,,0,
+35.2.2,Action,☘ 组织管理,,Learning,,,,,,0,
+35.2.2.1,Action,☘ 高祖本纪8 ～ 孝武本纪12,,Learning,,,,,,0,
+35.2.2.2,Action,☘ 魏豹彭越列传 90 ～ 韩信卢绾列传93 萧相国世家53 ～ 三王世家60,,Learning,,,,,,0,
+35.2.3,Action,☘ 时间管理,,Learning,,,,,,0,
+35.2.3.1,Action,☘ 礼书，乐书 ,,Learning,,,,,,0,
+35.2.3.2,Action,☘ 律书，历书，天官书,,Learning,,,,,,0,
+35.2.3.3,Action,☘ 封禅书，河渠书，平淮书,,Learning,,,,,,0,
+35.2.4,Action,☘ 自我管理,,Learning,,,,,,0,
+35.2.4.1,Action,☘ 礼书，乐书 ,,Learning,,,,,,0,
+35.2.4.2,Action,☘ 律书，历书，天官书,,Learning,,,,,,0,
+35.2.4.3,Action,☘ 封禅书，河渠书，平淮书,,Learning,,,,,,0,
+35.2.5,Action,☘ 计划与汇报，思维方式,,Learning,,,,,,0,
+35.2.5.1,Action,☘ 礼书，乐书 ,,Learning,,,,,,0,
+35.2.5.2,Action,☘ 律书，历书，天官书,,Learning,,,,,,0,
+35.2.5.3,Action,☘ 封禅书，河渠书，平淮书,,Learning,,,,,,0,
+35.3,Action,☘☯ Language,,Learning,,,,,,0,
+35.3.1,Action,☘英语,,Learning,,,,,,0,
+35.3.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Learning,,,,,,0,
+35.3.1.2,Action,☘ 吴太伯世家31 ～ 晋世家39 夏本纪2 ～ 项羽本纪7,,Learning,,,,,,0,
+35.3.1.3,Action,☘ 楚世家40 荆燕世家51,,Learning,,,,,,0,
+35.3.2,Action,☘ 日语,,Learning,,,,,,0,
+35.3.2.1,Action,☘ 高祖本纪8 ～ 孝武本纪12,,Learning,,,,,,0,
+35.3.2.2,Action,☘ 魏豹彭越列传 90 ～ 韩信卢绾列传93 萧相国世家53 ～ 三王世家60,,Learning,,,,,,0,
+36,Project,Habit,active,,,,,,,0,
+36.1,Action,☘☯ 书法,,Habit,,,,,,0,
+36.1.1,Action,☘第一段阅读与过程记录心得输出,,Habit,,,,,,0,
+36.1.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Habit,,,,,,0,
+36.1.1.2,Action,☘ 吴太伯世家31 ～ 晋世家39 夏本纪2 ～ 项羽本纪7,,Habit,,,,,,0,
+36.1.2,Action,☘ 第二段阅读与过程记录心得输出,,Habit,,,,,,0,
+36.1.2.1,Action,☘ 高祖本纪8 ～ 孝武本纪12,,Habit,,,,,,0,
+36.1.2.2,Action,☘ 魏豹彭越列传 90 ～ 韩信卢绾列传93 萧相国世家53 ～ 三王世家60,,Habit,,,,,,0,
+36.1.3,Action,☘ 第三段阅读与过程记录心得输出,,Habit,,,,,,0,
+36.1.3.1,Action,☘ 礼书，乐书 ,,Habit,,,,,,0,
+36.1.3.2,Action,☘ 律书，历书，天官书,,Habit,,,,,,0,
+36.1.3.3,Action,☘ 封禅书，河渠书，平淮书,,Habit,,,,,,0,
+36.2,Action,☘☯ 乐器,,Habit,,,,,,0,
+36.2.1,Action,☘第一段阅读与过程记录心得输出,,Habit,,,,,,0,
+36.2.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Habit,,,,,,0,
+36.3,Action,☘☯ 折纸,,Habit,,,,,,0,
+36.3.1,Action,☘第一段阅读与过程记录心得输出,,Habit,,,,,,0,
+36.3.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Habit,,,,,,0,
+36.4,Action,☘☯ 易经算卦,,Habit,,,,,,0,
+36.4.1,Action,☘第一段阅读与过程记录心得输出,,Habit,,,,,,0,
+36.4.1.1,Action,☘ 太史公自序130 ～ 五帝本纪1,,Habit,,,,,,0,
+36.4.1.2,Action,☘ 吴太伯世家31 ～ 晋世家39 夏本纪2 ～ 项羽本纪7,,Habit,,,,,,0,
+37,Project,wealth management,active,,,,,,,0,
+37.1,Action,☘ 股市,,wealth management,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+37.1.1,Action,☘ 学习期权的投资方式和方法,,wealth management,,,,,,0,理清楚期权的玩法
+37.2,Action,☘ 基金,,wealth management,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+37.2.1,Action,☘ ***,,wealth management,,,,,,0,总体系统方案设计，输出为满足需求而设计的流程和平台，模型建模方式的总体方案，确定数据链路及所依赖平台
+37.3,Action,☘ 其它商业投资,,wealth management,,,,,,0,现有解决方案的效果分析及当前项目需求方案设计的效果评估
+37.3.1,Action,☘ ***,,wealth management,,,,,,0,总体系统方案设计，输出为满足需求而设计的流程和平台，模型建模方式的总体方案，确定数据链路及所依赖平台
+38,Project,outdoor sport,active,,,,,,,0,
+39,Project,television drama,active,,,,,,,0,
+40,Project,This week,active,,,,,,,0,
+40.1,Action,captcha web service,,This week,,,,,,0,
+40.2,Action,ARE architecture & plan,,This week,,,,,,0,
+40.3,Action,UBD architecture & code develop & data ,,This week,,,,,,0,
